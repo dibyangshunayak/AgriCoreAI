@@ -52,6 +52,10 @@ def create_app() -> Flask:
     app.register_blueprint(auth_blueprint, url_prefix="/api")
     app.register_blueprint(user_blueprint, url_prefix="/api")
 
+    # Startup logging of app.url_map
+    logger.info(f"Registered URL Map: {app.url_map}")
+
+
     @app.route("/health", methods=["GET"])
     def health_check():
         return {

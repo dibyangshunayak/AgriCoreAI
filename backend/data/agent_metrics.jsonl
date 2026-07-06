@@ -393,3 +393,5 @@
 {"timestamp": "2026-07-06T14:25:41.867250+00:00", "session_id": "default_session", "latency": 0.006621599197387695, "agents": [], "tools": [], "tokens": 0, "cost": 0.0}
 {"timestamp": "2026-07-06T14:25:41.875381+00:00", "session_id": "default_session", "latency": 0.006998300552368164, "agents": ["crop_agent"], "tools": [], "tokens": 16, "cost": 2.4e-06}
 {"timestamp": "2026-07-06T16:16:48.216586+00:00", "session_id": "test_session_123", "latency": 0.057494401931762695, "agents": ["general_agent"], "tools": [], "tokens": 0, "cost": 0.0}
+{"timestamp": "2026-07-06T17:36:06.607248+00:00", "session_id": "test_session_123", "latency": 0.05871462821960449, "agents": ["general_agent"], "tools": [], "tokens": 0, "cost": 0.0}
+{"timestamp": "2026-07-06T17:40:20.587200+00:00", "session_id": "test_session_123", "latency": 0.07127571105957031, "agents": ["general_agent"], "tools": [], "tokens": 0, "cost": 0.0}
