@@ -32,11 +32,11 @@
 <div align="center">
   <table>
     <tr>
-      <td align="center"><strong>🌐 Live Demo</strong><br><a href="https://agricore.ai">agricore.ai</a></td>
+      <td align="center"><strong>🌐 Live Demo</strong><br><a href="https://agri-core-ai-five.vercel.app">agricore.ai</a></td>
       <td align="center"><strong>📖 Documentation</strong><br><a href="https://gitbook.io">Read Guide</a></td>
-      <td align="center"><strong>🎥 Demo Video</strong><br><a href="https://youtube.com">Watch Walkthrough</a></td>
-      <td align="center"><strong>📂 Repository</strong><br><a href="https://github.com/username/agricore-ai">Source Code</a></td>
-      <td align="center"><strong>🏆 Kaggle Writeup</strong><br><a href="https://www.kaggle.com">Read Submission</a></td>
+      <td align="center"><strong>🎥 Demo Video</strong><br><a href="https://youtu.be/-qPUkMyqRGU?si=NQXBOi3-W-GTxtfp">Watch Walkthrough</a></td>
+      <td align="center"><strong>📂 Repository</strong><br><a href="https://github.com/dibyangshunayak/AgriCoreAI">Source Code</a></td>
+      <td align="center"><strong>🏆 Kaggle Writeup</strong><br><a href="https://kaggle.com/competitions/vibecoding-agents-capstone-project/writeups/new-writeup-1781964400671">Read Submission</a></td>
     </tr>
   </table>
 </div>
