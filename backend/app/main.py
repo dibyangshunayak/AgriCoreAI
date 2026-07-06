@@ -88,6 +88,11 @@ def create_app() -> Flask:
     print("MCP Servers : Loaded")
     print("=====================================\n")
 
+    print("\n========== REGISTERED ROUTES ==========")
+    for rule in app.url_map.iter_rules():
+        print(rule)
+    print("=======================================\n")
+
     logger.info("Flask application created and registered with security middleware.")
     return app
 

@@ -15,7 +15,9 @@ from app.agents.coordinator_agent import process_request_stream
 # Initialize logger
 logger = logging.getLogger(__name__)
 
+# Initialize blueprint
 chat_blueprint = Blueprint("chat", __name__)
+
 
 # Helper to stream SSE events safely
 def sse_event(data: dict, event_type: str = "message") -> str:
