@@ -84,8 +84,11 @@ export const useStreaming = () => {
       }
     }, 800);
 
+    const targetUrl = `${BACKEND_URL}/api/chat`;
+    console.log(`[useStreaming] Initiating request to: ${targetUrl}`);
+
     try {
-      const response = await fetch(`${BACKEND_URL}/api/chat`, {
+      const response = await fetch(targetUrl, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
@@ -97,6 +100,11 @@ export const useStreaming = () => {
       if (!response.ok) {
         clearInterval(stageInterval);
         setThinkingStage(null);
+        console.error(`[useStreaming] HTTP Error Response (Non-200):`, {
+          status: response.status,
+          statusText: response.statusText,
+          url: response.url
+        });
         throw new Error(`Server returned status code ${response.status}`);
       }
 
@@ -174,9 +182,25 @@ export const useStreaming = () => {
     } catch (error) {
       clearInterval(stageInterval);
       setThinkingStage(null);
-      console.error("Streaming error:", error);
+      
+      if (error instanceof TypeError && (error.message.includes('fetch') || error.message.includes('NetworkError') || error.message.includes('Failed to'))) {
+        console.error(`[useStreaming] Network or CORS Error: Connection failed when requesting ${targetUrl}.`, {
+          message: error.message,
+          name: error.name,
+          stack: error.stack,
+          isOnline: navigator.onLine,
+          probableCauses: [
+            "CORS policy restriction (e.g., origin not allowed by backend CORS configuration)",
+            "Backend server is offline or unreachable (e.g., cold start, crashed, or invalid URL)",
+            "Client has no internet connection or DNS lookup failed"
+          ]
+        });
+      } else {
+        console.error("[useStreaming] Request failed:", error);
+      }
+
       setIsThinking(false);
-      addMessageToSession('assistant', `⚠ Failed to connect to server: ${error.message}. Please verify the backend is running.`);
+      addMessageToSession('assistant', `⚠ Failed to connect to server: ${error.message}. Please verify the backend is running and CORS is configured.`);
     } finally {
       setIsStreaming(false);
     }
