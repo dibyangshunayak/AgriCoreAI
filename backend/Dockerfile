@@ -40,5 +40,5 @@ RUN useradd -u 1001 -m appuser \
 
 USER appuser
 
-# Run Gunicorn with multi-threaded gthread workers to support streaming SSE connections efficiently
-CMD ["gunicorn", "--workers", "2", "--threads", "8", "--worker-class", "gthread", "-b", "0.0.0.0:8000", "app.main:app"]
+# Run Gunicorn with multi-threaded gthread workers to support streaming SSE connections efficiently, dynamically binding to the port assigned by Render.
+CMD ["sh", "-c", "gunicorn --workers 2 --threads 8 --worker-class gthread --bind 0.0.0.0:$PORT app.main:app"]

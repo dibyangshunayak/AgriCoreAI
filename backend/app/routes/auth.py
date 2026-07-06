@@ -103,7 +103,7 @@ def register():
         db.add(token_record)
         db.commit()
 
-        logger.info(f"Registered user: {email} with verification token: {verification_token}")
+        logger.info(f"Registered user: {email}")
         
         # Return verification_token in payload to allow easy simulation testing
         response_data = new_user.to_dict()
@@ -484,7 +484,7 @@ def forgot_password():
         db.add(token_record)
         db.commit()
 
-        logger.info(f"Password reset link generated for {email}: {reset_token}")
+        logger.info(f"Password reset link generated for {email}")
         return jsonify({
             "message": "If this email is registered, a password reset link has been sent.",
             "reset_token": reset_token # Returned for ease of local validation

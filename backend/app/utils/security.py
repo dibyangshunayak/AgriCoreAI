@@ -132,12 +132,19 @@ def validate_csrf_origin(req) -> bool:
         return True
     
     # Standard local frontend origins
+    from app.config import settings
     allowed_origins = [
         "http://localhost:5173", "http://127.0.0.1:5173",
         "http://localhost:5174", "http://127.0.0.1:5174",
         "http://localhost:5175", "http://127.0.0.1:5175",
         "http://localhost:5176", "http://127.0.0.1:5176"
     ]
+    if getattr(settings, "ALLOWED_ORIGINS", None):
+        for o in settings.ALLOWED_ORIGINS.split(","):
+            o_clean = o.strip()
+            if o_clean and o_clean not in allowed_origins:
+                allowed_origins.append(o_clean)
+
     if any(origin.startswith(allowed) for allowed in allowed_origins):
         return True
         

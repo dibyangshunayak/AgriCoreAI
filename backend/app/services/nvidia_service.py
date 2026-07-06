@@ -579,7 +579,11 @@ def analyze_image_with_nvidia(image_bytes: bytes, mime_type: str, prompt: str) -
     b64_image = base64.b64encode(image_bytes).decode("utf-8")
     image_data_url = f"data:{mime_type};base64,{b64_image}"
 
-    url = "https://integrate.api.nvidia.com/v1/chat/completions"
+    url = settings.NVIDIA_API_URL or "https://integrate.api.nvidia.com/v1/chat/completions"
+    if url.endswith("/v1"):
+        url = url + "/chat/completions"
+    elif url.endswith("/v1/"):
+        url = url + "chat/completions"
     headers = {
         "Authorization": f"Bearer {api_key}",
         "Content-Type": "application/json",

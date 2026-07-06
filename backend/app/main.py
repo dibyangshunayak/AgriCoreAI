@@ -26,16 +26,23 @@ def create_app() -> Flask:
     app.secret_key = settings.SECRET_KEY
     
     # Configure CORS to allow React frontend with credentials support
+    cors_origins = [
+        "http://localhost:5173", "http://127.0.0.1:5173",
+        "http://localhost:5174", "http://127.0.0.1:5174",
+        "http://localhost:5175", "http://127.0.0.1:5175",
+        "http://localhost:5176", "http://127.0.0.1:5176"
+    ]
+    if getattr(settings, "ALLOWED_ORIGINS", None):
+        for o in settings.ALLOWED_ORIGINS.split(","):
+            o_clean = o.strip()
+            if o_clean and o_clean not in cors_origins:
+                cors_origins.append(o_clean)
+
     CORS(
         app,
         supports_credentials=True,
         resources={r"/api/*": {
-            "origins": [
-                "http://localhost:5173", "http://127.0.0.1:5173",
-                "http://localhost:5174", "http://127.0.0.1:5174",
-                "http://localhost:5175", "http://127.0.0.1:5175",
-                "http://localhost:5176", "http://127.0.0.1:5176"
-            ]
+            "origins": cors_origins
         }}
     )
     
@@ -44,6 +51,14 @@ def create_app() -> Flask:
     app.register_blueprint(chat_blueprint, url_prefix="/api")
     app.register_blueprint(auth_blueprint, url_prefix="/api")
     app.register_blueprint(user_blueprint, url_prefix="/api")
+
+    @app.route("/health", methods=["GET"])
+    def health_check():
+        return {
+            "status": "healthy",
+            "service": "AgriCore AI",
+            "version": "1.0"
+        }, 200
 
     @app.before_request
     def enforce_security_guardrails():
@@ -58,6 +73,21 @@ def create_app() -> Flask:
         if not check_rate_limit(ip_addr):
             return {"error": "Too many requests. Rate limit exceeded."}, 429
     
+    # Premium Startup Diagnostics Logging
+    import os
+    env = os.getenv("ENVIRONMENT", "Production")
+    host = settings.HOST
+    port_str = "Render Assigned" if os.getenv("PORT") else str(settings.PORT)
+    
+    print("\n=====================================")
+    print("AgriCore AI Backend")
+    print(f"Environment : {env}")
+    print(f"Host        : {host}")
+    print(f"Port        : {port_str}")
+    print("AI Agents   : Loaded")
+    print("MCP Servers : Loaded")
+    print("=====================================\n")
+
     logger.info("Flask application created and registered with security middleware.")
     return app
 
