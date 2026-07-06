@@ -1,0 +1,13 @@
+{
+  "new_chat": "New Chat",
+  "placeholder": "Ask AgriAgent AI about crops, weather, diseases...",
+  "welcome_title": "Welcome to AgriAgent AI",
+  "welcome_desc": "Your intelligent agricultural assistant. How can I help you today?",
+  "thinking": "Thinking...",
+  "checking_weather": "Checking weather...",
+  "analyzing_image": "Analyzing image...",
+  "consulting_disease": "Consulting disease expert...",
+  "consulting_crop": "Consulting crop expert...",
+  "resolving_location": "Resolving location...",
+  "generating_rec": "Generating recommendation..."
+}

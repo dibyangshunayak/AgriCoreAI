@@ -1,0 +1,38 @@
+# .cloudignore - Exclude files from Cloud Build context to optimize upload speeds.
+
+# Git repository directory
+.git/
+
+# Virtual Environments
+venv/
+.venv/
+env/
+
+# Node dependencies
+**/node_modules/
+
+# Local configuration files
+.env
+.env.local
+.env.development
+.env.production
+*.db
+*.sqlite
+
+# Application logs & test outputs
+*.log
+**/__pycache__/
+**/*.pyc
+**/*.pyo
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Build outputs
+dist/
+build/
+out/
+
+# OS specific files
+.DS_Store
+Thumbs.db

@@ -1,0 +1,18 @@
+{
+  "system_settings": "System Settings",
+  "system_desc": "Review preferences, location metadata, and configure farm profiles.",
+  "soil_crop_seasons": "Soil & Crop Seasons",
+  "gps_diagnostics": "GPS Location Diagnostics",
+  "no_coords": "No coordinates captured. Attach your location in chat to reverse geocode weather advisories.",
+  "danger_zone": "Delete Account (Danger Zone)",
+  "danger_desc": "Permanently deletes your account records, user settings, crop logs, and diagnostic images.",
+  "delete_btn": "Delete Account",
+  "change_password": "Change Account Password",
+  "new_password": "New Password",
+  "confirm_password": "Confirm New Password",
+  "notification_toggles": "Notification Toggles",
+  "weather_alerts": "Weather Alerts",
+  "disease_alerts": "Disease Alerts",
+  "irrigation_recs": "Irrigation Recommendations",
+  "gov_schemes": "Government Schemes"
+}
