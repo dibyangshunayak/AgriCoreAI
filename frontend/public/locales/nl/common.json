@@ -1,0 +1,18 @@
+{
+  "save": "Save Configuration",
+  "saving": "Saving...",
+  "back": "Back",
+  "continue": "Continue",
+  "sign_out": "Sign Out",
+  "dark_theme": "Dark Theme",
+  "light_theme": "Light Theme",
+  "theme": "Theme",
+  "language": "Language",
+  "units": "Units",
+  "cancel": "Cancel",
+  "success": "Success",
+  "error": "Error",
+  "back_to_chat": "Back to Chat",
+  "brand": "AgriAgent AI Portal",
+  "subtitle": "Setup Assistant"
+}

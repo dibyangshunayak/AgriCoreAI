@@ -1,0 +1,378 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap');
+
+@import "tailwindcss";
+
+/* Class-based Dark Mode selector for Tailwind CSS v4 */
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  /* ── New ChatGPT-style dark palette ── */
+  --color-primary: #10B981;
+  --color-secondary: #38BDF8;
+
+  --color-bg-base: #000000;
+  --color-bg-sidebar: #0a0a0a;
+  --color-bg-card: #121212;
+  --color-bg-elevated: #1a1a1a;
+
+  --color-text-primary: #FFFFFF;
+  --color-text-muted: #94A3B8;
+  --color-text-faint: #64748B;
+
+  /* Legacy compat */
+  --color-brand-500: #10B981;
+  --color-brand-600: #059669;
+  --color-bg-light: #ffffff;
+  --color-bg-dark: #000000;
+  --color-bg-panel: #ffffff;
+  --color-bg-panelDark: #121212;
+
+  --font-sans: 'Inter', 'Outfit', 'system-ui', 'sans-serif';
+}
+
+/* ── Base Styles ── */
+@layer base {
+  html {
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    @apply font-sans antialiased bg-[#000000] text-white;
+    font-feature-settings: normal;
+  }
+
+  /* Force dark across all pages */
+  .dark body {
+    @apply text-white bg-[#000000];
+  }
+
+  select option {
+    background-color: #1E293B;
+    color: #f1f5f9;
+  }
+
+  .dark select option {
+    background-color: #1E293B;
+    color: #f1f5f9;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+}
+
+/* ── Custom Scrollbar ── */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(148, 163, 184, 0.15);
+  border-radius: 99px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(148, 163, 184, 0.3);
+}
+
+/* ── Glassmorphism Utilities ── */
+.glass {
+  background: rgba(30, 41, 59, 0.7);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.glass-sidebar {
+  background: #111827;
+  border-right: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.glass-input {
+  background: rgba(30, 41, 59, 0.6);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* ── Blinking Cursor (streaming) ── */
+.blinking-cursor {
+  display: inline-block;
+  width: 2px;
+  height: 1em;
+  background-color: #10B981;
+  margin-left: 2px;
+  vertical-align: middle;
+  border-radius: 1px;
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+  from, to { background-color: transparent; }
+  50% { background-color: #10B981; }
+}
+
+/* ── Skeleton Shimmer ── */
+.skeleton {
+  background: linear-gradient(
+    90deg,
+    rgba(255,255,255,0.04) 25%,
+    rgba(255,255,255,0.09) 50%,
+    rgba(255,255,255,0.04) 75%
+  );
+  background-size: 200% 100%;
+  animation: shimmer 1.6s infinite;
+}
+
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+/* ── Thinking Dots ── */
+.thinking-dot {
+  animation: dotBounce 1.4s ease-in-out infinite;
+}
+.thinking-dot:nth-child(1) { animation-delay: 0s; }
+.thinking-dot:nth-child(2) { animation-delay: 0.2s; }
+.thinking-dot:nth-child(3) { animation-delay: 0.4s; }
+
+@keyframes dotBounce {
+  0%, 80%, 100% { transform: scale(0.65); opacity: 0.3; }
+  40% { transform: scale(1); opacity: 1; }
+}
+
+/* ── Message fade-in ── */
+.msg-fade-in {
+  animation: msgFadeIn 0.25s ease-out;
+}
+
+@keyframes msgFadeIn {
+  from { opacity: 0; transform: translateY(6px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* ── Sidebar item hover ── */
+.sidebar-item {
+  @apply flex items-center gap-3 px-3 py-2 rounded-xl text-sm text-[#94A3B8] font-medium
+         transition-all duration-150 cursor-pointer select-none w-full text-left;
+}
+.sidebar-item:hover {
+  @apply bg-white/[0.07] text-white;
+}
+.sidebar-item.active {
+  @apply bg-white/[0.1] text-white;
+}
+
+/* ── Suggestion card hover ── */
+.suggestion-card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+}
+.suggestion-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.4);
+  background: rgba(255,255,255,0.07);
+}
+
+/* ── Toggle switch ── */
+.toggle-switch {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 40px;
+  height: 22px;
+  background: rgba(255,255,255,0.1);
+  border-radius: 99px;
+  border: 1px solid rgba(255,255,255,0.12);
+  cursor: pointer;
+  position: relative;
+  transition: background 0.2s ease;
+  flex-shrink: 0;
+}
+.toggle-switch::after {
+  content: '';
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  background: white;
+  border-radius: 50%;
+  top: 2px;
+  left: 2px;
+  transition: transform 0.2s ease;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.4);
+}
+.toggle-switch:checked {
+  background: #10B981;
+  border-color: #10B981;
+}
+.toggle-switch:checked::after {
+  transform: translateX(18px);
+}
+
+/* ── Markdown content styling ── */
+.markdown-body h1 { @apply text-xl font-bold text-white mb-3 mt-4; }
+.markdown-body h2 { @apply text-lg font-bold text-white mb-2 mt-4; }
+.markdown-body h3 { @apply text-base font-semibold text-white mb-2 mt-3; }
+.markdown-body p  { @apply text-[14px] text-[#CBD5E1] leading-relaxed mb-2; }
+.markdown-body ul { @apply list-disc pl-5 my-2 space-y-1; }
+.markdown-body ol { @apply list-decimal pl-5 my-2 space-y-1; }
+.markdown-body li { @apply text-[14px] text-[#CBD5E1] leading-relaxed; }
+.markdown-body strong { @apply font-bold text-white; }
+.markdown-body em { @apply italic text-[#94A3B8]; }
+.markdown-body blockquote {
+  @apply border-l-2 border-[#10B981] pl-3 my-2 text-[#94A3B8] italic;
+}
+.markdown-body code {
+  @apply bg-white/10 text-[#38BDF8] rounded px-1 py-0.5 text-[13px] font-mono;
+}
+.markdown-body pre {
+  @apply bg-[#0F172A] border border-white/10 rounded-xl p-4 my-3 overflow-x-auto;
+}
+.markdown-body pre code {
+  @apply bg-transparent text-inherit p-0;
+}
+.markdown-body table {
+  @apply w-full border-collapse my-3 text-sm;
+}
+.markdown-body th {
+  @apply bg-white/10 text-white font-semibold px-3 py-2 text-left border border-white/10;
+}
+.markdown-body td {
+  @apply px-3 py-2 text-[#CBD5E1] border border-white/10;
+}
+.markdown-body tr:nth-child(even) td {
+  @apply bg-white/[0.03];
+}
+.markdown-body a {
+  @apply text-[#38BDF8] underline hover:text-white transition-colors;
+}
+.markdown-body hr {
+  @apply border-white/10 my-4;
+}
+
+/* ── Suppress old float animations ── */
+.animate-float-1,
+.animate-float-2 {
+  display: none;
+}
+
+/* ── Dark Theme Overrides for Inline Colors ── */
+[class*="bg-[#0F172A]"] {
+  background-color: #000000 !important;
+}
+
+[class*="bg-[#111827]"] {
+  background-color: #0a0a0a !important;
+}
+
+[class*="bg-[#1E293B]"],
+[class*="bg-[#101a12]"] {
+  background-color: #121212 !important;
+  border-color: rgba(255, 255, 255, 0.08) !important;
+}
+
+[class*="from-[#0F172A]"] {
+  background-image: linear-gradient(to top, #000000, transparent) !important;
+}
+
+/* ── Light Theme Overrides ── */
+.light body {
+  background: #ffffff;
+  color: #0f172a;
+}
+
+.light [class*="bg-[#0F172A]"],
+.light [class*="bg-[#111827]"],
+.light [class*="bg-[#000000]"],
+.light [class*="bg-[#0a0a0a]"] {
+  background-color: #ffffff !important;
+}
+
+.light [class*="from-[#0F172A]"],
+.light [class*="from-[#000000]"] {
+  background-image: linear-gradient(to top, #ffffff, transparent) !important;
+}
+
+.light [class*="bg-[#1E293B]"],
+.light [class*="bg-[#121212]"],
+.light [class*="bg-[#101a12]"],
+.light [class*="glass-input"] {
+  background-color: #ffffff !important;
+  border-color: rgba(15, 23, 42, 0.08) !important;
+}
+
+.light .glass {
+  background: rgba(255, 255, 255, 0.7) !important;
+  border-color: rgba(15, 23, 42, 0.08) !important;
+  color: #0f172a !important;
+}
+
+.light .glass .text-white,
+.light .glass strong {
+  color: #0f172a !important;
+}
+
+.light [class*="text-[#CBD5E1]"] {
+  color: #334155 !important;
+}
+
+.light [class*="border-white"] {
+  border-color: rgba(15, 23, 42, 0.12) !important;
+}
+
+.light header,
+.light aside {
+  background-color: rgba(255, 255, 255, 0.9) !important;
+  color: #0f172a !important;
+}
+
+.light .sidebar-item {
+  color: #475569;
+}
+.light .sidebar-item:hover,
+.light .sidebar-item.active {
+  background: rgba(15, 23, 42, 0.08);
+  color: #0f172a;
+}
+
+.light h1,
+.light h2,
+.light h3,
+.light label,
+.light p,
+.light span,
+.light input,
+.light textarea,
+.light .markdown-body strong,
+.light .markdown-body h1,
+.light .markdown-body h2,
+.light .markdown-body h3 {
+  color: #0f172a;
+}
+
+.light [class*="text-[#64748B]"],
+.light [class*="text-[#94A3B8]"],
+.light [class*="text-slate-400"],
+.light [class*="text-slate-500"] {
+  color: #64748b !important;
+}
+
+.light input,
+.light textarea,
+.light select {
+  background-color: #ffffff !important;
+  color: #0f172a !important;
+  border-color: rgba(15, 23, 42, 0.16) !important;
+}
+
+.light .markdown-body p,
+.light .markdown-body li,
+.light .markdown-body td {
+  color: #334155;
+}

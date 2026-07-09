@@ -1,0 +1,96 @@
+
+--- RENDER START: 0 messages ---
+
+--- RENDER START: 0 messages ---
+
+--- RENDER START: 0 messages ---
+
+--- RENDER START: 0 messages ---
+
+--- RENDER START: 0 messages ---
+--- APPENDING ASSISTANT RESPONSE: '❌ **Error:** Please upload a crop leaf image.' ---
+--- TRIGGERING ST.RERUN() ---
+
+--- RENDER START: 2 messages ---
+  [0] role=user content='Should I irrigate today?'
+  [1] role=assistant content='❌ **Error:** Please upload a crop leaf image.'
+
+--- RENDER START: 0 messages ---
+
+--- RENDER START: 0 messages ---
+
+--- RENDER START: 0 messages ---
+--- APPENDING ASSISTANT RESPONSE: '🤖 **Weather Agent**\n\n📍 **Baripada, Odisha**\n\n🌡 Temperature: 28.2°C\n💧 Humidity: 94%\n🌧 Rain: 0.0 mm\n🌬 ' ---
+--- TRIGGERING ST.RERUN() ---
+
+--- RENDER START: 2 messages ---
+  [0] role=user content='Should I irrigate today?'
+  [1] role=assistant content='🤖 **Weather Agent**\n\n📍 **Baripada, Odisha**\n\n🌡 Temperature: 28.2°C\n💧 Humidity: 94%\n🌧 Rain: 0.0 mm\n🌬 '
+
+--- RENDER START: 2 messages ---
+  [0] role=user content='Should I irrigate today?'
+  [1] role=assistant content='🤖 **Weather Agent**\n\n📍 **Baripada, Odisha**\n\n🌡 Temperature: 28.2°C\n💧 Humidity: 94%\n🌧 Rain: 0.0 mm\n🌬 '
+--- APPENDING ASSISTANT RESPONSE: '🤖 **Weather Agent**\n\n📍 **Baripada, Odisha**\n\n🌡 Temperature: 28.2°C\n💧 Humidity: 95%\n🌧 Rain: 0.0 mm\n🌬 ' ---
+--- TRIGGERING ST.RERUN() ---
+
+--- RENDER START: 4 messages ---
+  [0] role=user content='Should I irrigate today?'
+  [1] role=assistant content='🤖 **Weather Agent**\n\n📍 **Baripada, Odisha**\n\n🌡 Temperature: 28.2°C\n💧 Humidity: 94%\n🌧 Rain: 0.0 mm\n🌬 '
+  [2] role=user content='Will it rain today?'
+  [3] role=assistant content='🤖 **Weather Agent**\n\n📍 **Baripada, Odisha**\n\n🌡 Temperature: 28.2°C\n💧 Humidity: 95%\n🌧 Rain: 0.0 mm\n🌬 '
+
+--- RENDER START: 4 messages ---
+  [0] role=user content='Should I irrigate today?'
+  [1] role=assistant content='🤖 **Weather Agent**\n\n📍 **Baripada, Odisha**\n\n🌡 Temperature: 28.2°C\n💧 Humidity: 94%\n🌧 Rain: 0.0 mm\n🌬 '
+  [2] role=user content='Will it rain today?'
+  [3] role=assistant content='🤖 **Weather Agent**\n\n📍 **Baripada, Odisha**\n\n🌡 Temperature: 28.2°C\n💧 Humidity: 95%\n🌧 Rain: 0.0 mm\n🌬 '
+--- APPENDING ASSISTANT RESPONSE: '❌ **Error:** Unable to retrieve weather information.' ---
+--- TRIGGERING ST.RERUN() ---
+
+--- RENDER START: 6 messages ---
+  [0] role=user content='Should I irrigate today?'
+  [1] role=assistant content='🤖 **Weather Agent**\n\n📍 **Baripada, Odisha**\n\n🌡 Temperature: 28.2°C\n💧 Humidity: 94%\n🌧 Rain: 0.0 mm\n🌬 '
+  [2] role=user content='Will it rain today?'
+  [3] role=assistant content='🤖 **Weather Agent**\n\n📍 **Baripada, Odisha**\n\n🌡 Temperature: 28.2°C\n💧 Humidity: 95%\n🌧 Rain: 0.0 mm\n🌬 '
+  [4] role=user content='what is the the temperature '
+  [5] role=assistant content='❌ **Error:** Unable to retrieve weather information.'
+
+--- RENDER START: 0 messages ---
+
+--- RENDER START: 0 messages ---
+
+--- RENDER START: 0 messages ---
+--- APPENDING ASSISTANT RESPONSE: '❌ **Error:** Unable to retrieve weather information.' ---
+--- TRIGGERING ST.RERUN() ---
+
+--- RENDER START: 2 messages ---
+  [0] role=user content='what is the Temperature'
+  [1] role=assistant content='❌ **Error:** Unable to retrieve weather information.'
+
+--- RENDER START: 0 messages ---
+
+--- RENDER START: 0 messages ---
+
+--- RENDER START: 0 messages ---
+--- APPENDING ASSISTANT RESPONSE: '🌾 **AgriCore AI**\n──────────────────\n\n⚠ Weather information is temporarily unavailable.\n\nPlease try' ---
+--- TRIGGERING ST.RERUN() ---
+
+--- RENDER START: 2 messages ---
+  [0] role=user content='What is the temperature?'
+  [1] role=assistant content='🌾 **AgriCore AI**\n──────────────────\n\n⚠ Weather information is temporarily unavailable.\n\nPlease try'
+
+--- RENDER START: 2 messages ---
+  [0] role=user content='What is the temperature?'
+  [1] role=assistant content='🌾 **AgriCore AI**\n──────────────────\n\n⚠ Weather information is temporarily unavailable.\n\nPlease try'
+--- APPENDING ASSISTANT RESPONSE: '🌾 **AgriCore AI**\n──────────────────\n\n📍 **Cuttack, Odisha**\n\n🌦 **Weather Advisory**\n\n🌡 Temperature:' ---
+--- TRIGGERING ST.RERUN() ---
+
+--- RENDER START: 4 messages ---
+  [0] role=user content='What is the temperature?'
+  [1] role=assistant content='🌾 **AgriCore AI**\n──────────────────\n\n⚠ Weather information is temporarily unavailable.\n\nPlease try'
+  [2] role=user content='What is the temperature?'
+  [3] role=assistant content='🌾 **AgriCore AI**\n──────────────────\n\n📍 **Cuttack, Odisha**\n\n🌦 **Weather Advisory**\n\n🌡 Temperature:'
+
+--- RENDER START: 0 messages ---
+
+--- RENDER START: 0 messages ---

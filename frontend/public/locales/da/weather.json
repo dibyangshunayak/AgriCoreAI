@@ -1,0 +1,8 @@
+{
+  "weather_forecast": "Weather Forecast",
+  "humidity": "Humidity",
+  "wind_speed": "Wind Speed",
+  "precipitation": "Precipitation",
+  "temperature": "Temperature",
+  "advisory": "Weather Advisory"
+}

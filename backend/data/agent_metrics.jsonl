@@ -1,0 +1,397 @@
+{"timestamp": "2026-07-03T10:32:59.920972+00:00", "session_id": "default_session", "latency": 2.181215763092041, "agents": ["weather_agent"], "tools": [], "tokens": 16, "cost": 2.4e-06}
+{"timestamp": "2026-07-03T10:33:00.883336+00:00", "session_id": "default_session", "latency": 0.9377171993255615, "agents": ["disease_agent"], "tools": [], "tokens": 18, "cost": 2.6999999999999996e-06}
+{"timestamp": "2026-07-03T10:33:04.045299+00:00", "session_id": "default_session", "latency": 3.1612038612365723, "agents": ["disease_agent", "weather_agent"], "tools": [], "tokens": 24, "cost": 3.6e-06}
+{"timestamp": "2026-07-03T10:33:04.051132+00:00", "session_id": "default_session", "latency": 0.004193305969238281, "agents": [], "tools": [], "tokens": 0, "cost": 0.0}
+{"timestamp": "2026-07-03T10:33:04.988499+00:00", "session_id": "default_session", "latency": 0.9367961883544922, "agents": [], "tools": [], "tokens": 0, "cost": 0.0}
+{"timestamp": "2026-07-03T10:33:06.273726+00:00", "session_id": "default_session", "latency": 1.2845525741577148, "agents": ["crop_agent"], "tools": [], "tokens": 16, "cost": 2.4e-06}
+{"timestamp": "2026-07-03T10:38:03.505646+00:00", "session_id": "default_session", "latency": 5.500630140304565, "agents": ["weather_agent"], "tools": [], "tokens": 16, "cost": 2.4e-06}
+{"timestamp": "2026-07-03T10:38:07.217197+00:00", "session_id": "default_session", "latency": 3.694523811340332, "agents": ["disease_agent"], "tools": [], "tokens": 18, "cost": 2.6999999999999996e-06}
+{"timestamp": "2026-07-03T10:38:08.997228+00:00", "session_id": "default_session", "latency": 1.7791557312011719, "agents": ["disease_agent", "weather_agent"], "tools": [], "tokens": 24, "cost": 3.6e-06}
+{"timestamp": "2026-07-03T10:38:09.002515+00:00", "session_id": "default_session", "latency": 0.004517316818237305, "agents": [], "tools": [], "tokens": 0, "cost": 0.0}
+{"timestamp": "2026-07-03T10:38:10.589124+00:00", "session_id": "default_session", "latency": 1.5859181880950928, "agents": [], "tools": [], "tokens": 0, "cost": 0.0}
+{"timestamp": "2026-07-03T10:38:11.871760+00:00", "session_id": "default_session", "latency": 1.2819914817810059, "agents": ["crop_agent"], "tools": [], "tokens": 15, "cost": 2.2499999999999996e-06}
+{"timestamp": "2026-07-03T10:48:56.545068+00:00", "session_id": "default_session", "latency": 5.757941007614136, "agents": ["weather_agent"], "tools": [], "tokens": 20, "cost": 2.9999999999999997e-06}
+{"timestamp": "2026-07-03T10:49:03.606610+00:00", "session_id": "default_session", "latency": 7.058758974075317, "agents": ["location_agent"], "tools": [], "tokens": 79, "cost": 1.1849999999999998e-05}
+{"timestamp": "2026-07-03T10:49:04.739699+00:00", "session_id": "default_session", "latency": 1.1305851936340332, "agents": ["disease_agent"], "tools": [], "tokens": 9, "cost": 1.3499999999999998e-06}
+{"timestamp": "2026-07-03T10:49:06.957306+00:00", "session_id": "default_session", "latency": 2.2155721187591553, "agents": ["disease_agent", "weather_agent"], "tools": [], "tokens": 23, "cost": 3.4499999999999996e-06}
+{"timestamp": "2026-07-03T10:49:06.964055+00:00", "session_id": "default_session", "latency": 0.004481792449951172, "agents": [], "tools": [], "tokens": 0, "cost": 0.0}
+{"timestamp": "2026-07-03T10:49:06.970216+00:00", "session_id": "default_session", "latency": 0.0043485164642333984, "agents": [], "tools": [], "tokens": 0, "cost": 0.0}
+{"timestamp": "2026-07-03T10:49:06.972014+00:00", "session_id": "default_session", "latency": 0.00019741058349609375, "agents": ["general_agent"], "tools": [], "tokens": 0, "cost": 0.0}
+{"timestamp": "2026-07-03T10:58:49.127351+00:00", "session_id": "default_session", "latency": 1.9871528148651123, "agents": ["weather_agent"], "tools": [], "tokens": 16, "cost": 2.4e-06}
+{"timestamp": "2026-07-03T10:58:50.079297+00:00", "session_id": "default_session", "latency": 0.9212417602539062, "agents": ["disease_agent"], "tools": [], "tokens": 18, "cost": 2.6999999999999996e-06}
+{"timestamp": "2026-07-03T10:58:52.234584+00:00", "session_id": "default_session", "latency": 2.154618501663208, "agents": ["disease_agent", "weather_agent"], "tools": [], "tokens": 24, "cost": 3.6e-06}
+{"timestamp": "2026-07-03T10:58:52.239519+00:00", "session_id": "default_session", "latency": 0.0041484832763671875, "agents": [], "tools": [], "tokens": 0, "cost": 0.0}
+{"timestamp": "2026-07-03T10:59:02.041674+00:00", "session_id": "default_session", "latency": 9.801420450210571, "agents": [], "tools": [], "tokens": 0, "cost": 0.0}
+{"timestamp": "2026-07-03T10:59:03.373197+00:00", "session_id": "default_session", "latency": 1.3305835723876953, "agents": ["crop_agent"], "tools": [], "tokens": 16, "cost": 2.4e-06}
+{"timestamp": "2026-07-03T11:03:16.589073+00:00", "session_id": "default_session", "latency": 1.1511123180389404, "agents": ["weather_agent"], "tools": [], "tokens": 16, "cost": 2.4e-06}
+{"timestamp": "2026-07-03T11:03:17.536733+00:00", "session_id": "default_session", "latency": 0.9342949390411377, "agents": ["disease_agent"], "tools": [], "tokens": 18, "cost": 2.6999999999999996e-06}
+{"timestamp": "2026-07-03T11:03:18.506020+00:00", "session_id": "default_session", "latency": 0.9684016704559326, "agents": ["disease_agent", "weather_agent"], "tools": [], "tokens": 23, "cost": 3.4499999999999996e-06}
+{"timestamp": "2026-07-03T11:03:18.511476+00:00", "session_id": "default_session", "latency": 0.0044155120849609375, "agents": [], "tools": [], "tokens": 0, "cost": 0.0}
+{"timestamp": "2026-07-03T11:03:19.583630+00:00", "session_id": "default_session", "latency": 1.0712285041809082, "agents": [], "tools": [], "tokens": 0, "cost": 0.0}
+{"timestamp": "2026-07-03T11:03:20.567385+00:00", "session_id": "default_session", "latency": 0.9830343723297119, "agents": ["crop_agent"], "tools": [], "tokens": 14, "cost": 2.1e-06}
+{"timestamp": "2026-07-03T11:07:03.472389+00:00", "session_id": "default_session", "latency": 1.7014775276184082, "agents": ["weather_agent"], "tools": [], "tokens": 16, "cost": 2.4e-06}
+{"timestamp": "2026-07-03T11:07:04.426867+00:00", "session_id": "default_session", "latency": 0.9395418167114258, "agents": ["disease_agent"], "tools": [], "tokens": 18, "cost": 2.6999999999999996e-06}
+{"timestamp": "2026-07-03T11:07:05.390874+00:00", "session_id": "default_session", "latency": 0.963043212890625, "agents": ["disease_agent", "weather_agent"], "tools": [], "tokens": 24, "cost": 3.6e-06}
+{"timestamp": "2026-07-03T11:07:05.396181+00:00", "session_id": "default_session", "latency": 0.004385709762573242, "agents": [], "tools": [], "tokens": 0, "cost": 0.0}
+{"timestamp": "2026-07-03T11:07:06.648315+00:00", "session_id": "default_session", "latency": 1.2511928081512451, "agents": [], "tools": [], "tokens": 0, "cost": 0.0}
+{"timestamp": "2026-07-03T11:07:12.409330+00:00", "session_id": "default_session", "latency": 5.760151386260986, "agents": ["crop_agent"], "tools": [], "tokens": 16, "cost": 2.4e-06}
+{"timestamp": "2026-07-03T11:12:14.678546+00:00", "session_id": "default_session", "latency": 1.2260892391204834, "agents": ["weather_agent"], "tools": [], "tokens": 16, "cost": 2.4e-06}
+{"timestamp": "2026-07-03T11:12:15.811212+00:00", "session_id": "default_session", "latency": 1.117518424987793, "agents": ["disease_agent"], "tools": [], "tokens": 18, "cost": 2.6999999999999996e-06}
+{"timestamp": "2026-07-03T11:12:16.727574+00:00", "session_id": "default_session", "latency": 0.9154682159423828, "agents": ["disease_agent", "weather_agent"], "tools": [], "tokens": 23, "cost": 3.4499999999999996e-06}
+{"timestamp": "2026-07-03T11:12:16.732646+00:00", "session_id": "default_session", "latency": 0.004093647003173828, "agents": [], "tools": [], "tokens": 0, "cost": 0.0}
+{"timestamp": "2026-07-03T11:12:17.828157+00:00", "session_id": "default_session", "latency": 1.0940895080566406, "agents": [], "tools": [], "tokens": 0, "cost": 0.0}
+{"timestamp": "2026-07-03T11:12:19.161803+00:00", "session_id": "default_session", "latency": 1.3328557014465332, "agents": ["crop_agent"], "tools": [], "tokens": 16, "cost": 2.4e-06}
+{"timestamp": "2026-07-03T11:13:47.626260+00:00", "session_id": "default_session", "latency": 1.1150412559509277, "agents": ["weather_agent"], "tools": [], "tokens": 16, "cost": 2.4e-06}
+{"timestamp": "2026-07-03T11:13:48.544831+00:00", "session_id": "default_session", "latency": 0.9052674770355225, "agents": ["disease_agent"], "tools": [], "tokens": 18, "cost": 2.6999999999999996e-06}
+{"timestamp": "2026-07-03T11:13:49.717412+00:00", "session_id": "default_session", "latency": 1.1718428134918213, "agents": ["disease_agent", "weather_agent"], "tools": [], "tokens": 24, "cost": 3.6e-06}
+{"timestamp": "2026-07-03T11:13:49.723026+00:00", "session_id": "default_session", "latency": 0.004790306091308594, "agents": [], "tools": [], "tokens": 0, "cost": 0.0}
+{"timestamp": "2026-07-03T11:13:50.957037+00:00", "session_id": "default_session", "latency": 1.2333729267120361, "agents": [], "tools": [], "tokens": 0, "cost": 0.0}
+{"timestamp": "2026-07-03T11:13:51.991293+00:00", "session_id": "default_session", "latency": 1.033637285232544, "agents": ["crop_agent"], "tools": [], "tokens": 16, "cost": 2.4e-06}
+{"timestamp": "2026-07-03T11:15:25.904008+00:00", "session_id": "default_session", "latency": 1.2281074523925781, "agents": ["weather_agent"], "tools": [], "tokens": 16, "cost": 2.4e-06}
+{"timestamp": "2026-07-03T11:15:27.950747+00:00", "session_id": "default_session", "latency": 2.0306396484375, "agents": ["disease_agent"], "tools": [], "tokens": 18, "cost": 2.6999999999999996e-06}
+{"timestamp": "2026-07-03T11:15:29.133876+00:00", "session_id": "default_session", "latency": 1.181903600692749, "agents": ["disease_agent", "weather_agent"], "tools": [], "tokens": 23, "cost": 3.4499999999999996e-06}
+{"timestamp": "2026-07-03T11:15:29.139114+00:00", "session_id": "default_session", "latency": 0.0042803287506103516, "agents": [], "tools": [], "tokens": 0, "cost": 0.0}
+{"timestamp": "2026-07-03T11:15:30.130385+00:00", "session_id": "default_session", "latency": 0.9903550148010254, "agents": [], "tools": [], "tokens": 0, "cost": 0.0}
+{"timestamp": "2026-07-03T11:15:31.318763+00:00", "session_id": "default_session", "latency": 1.1876788139343262, "agents": ["crop_agent"], "tools": [], "tokens": 16, "cost": 2.4e-06}
+{"timestamp": "2026-07-03T13:03:19.378710+00:00", "session_id": "default_session", "latency": 1.8208842277526855, "agents": ["weather_agent"], "tools": [], "tokens": 16, "cost": 2.4e-06}
+{"timestamp": "2026-07-03T13:03:20.448923+00:00", "session_id": "default_session", "latency": 0.9916102886199951, "agents": ["disease_agent"], "tools": [], "tokens": 18, "cost": 2.6999999999999996e-06}
+{"timestamp": "2026-07-03T13:03:22.753893+00:00", "session_id": "default_session", "latency": 2.303586959838867, "agents": ["disease_agent", "weather_agent"], "tools": [], "tokens": 24, "cost": 3.6e-06}
+{"timestamp": "2026-07-03T13:03:22.762049+00:00", "session_id": "default_session", "latency": 0.0069427490234375, "agents": [], "tools": [], "tokens": 0, "cost": 0.0}
+{"timestamp": "2026-07-03T13:03:23.682904+00:00", "session_id": "default_session", "latency": 0.919642448425293, "agents": [], "tools": [], "tokens": 0, "cost": 0.0}
+{"timestamp": "2026-07-03T13:03:25.032787+00:00", "session_id": "default_session", "latency": 1.3492608070373535, "agents": ["crop_agent"], "tools": [], "tokens": 16, "cost": 2.4e-06}
+{"timestamp": "2026-07-03T13:03:52.857502+00:00", "session_id": "default_session", "latency": 1.0881428718566895, "agents": ["weather_agent"], "tools": [], "tokens": 20, "cost": 2.9999999999999997e-06}
+{"timestamp": "2026-07-03T13:03:56.572133+00:00", "session_id": "default_session", "latency": 3.7126502990722656, "agents": ["location_agent"], "tools": [], "tokens": 23, "cost": 3.4499999999999996e-06}
+{"timestamp": "2026-07-03T13:03:57.497966+00:00", "session_id": "default_session", "latency": 0.9228241443634033, "agents": ["disease_agent"], "tools": [], "tokens": 9, "cost": 1.3499999999999998e-06}
+{"timestamp": "2026-07-03T13:03:59.661643+00:00", "session_id": "default_session", "latency": 2.1605870723724365, "agents": ["disease_agent", "weather_agent"], "tools": [], "tokens": 23, "cost": 3.4499999999999996e-06}
+{"timestamp": "2026-07-03T13:03:59.669089+00:00", "session_id": "default_session", "latency": 0.005059480667114258, "agents": [], "tools": [], "tokens": 0, "cost": 0.0}
+{"timestamp": "2026-07-03T13:03:59.676187+00:00", "session_id": "default_session", "latency": 0.005257368087768555, "agents": [], "tools": [], "tokens": 0, "cost": 0.0}
+{"timestamp": "2026-07-03T13:03:59.678259+00:00", "session_id": "default_session", "latency": 0.00023055076599121094, "agents": ["general_agent"], "tools": [], "tokens": 0, "cost": 0.0}
+{"timestamp": "2026-07-03T13:03:59.685856+00:00", "session_id": "default_session", "latency": 0.004065513610839844, "agents": ["crop_agent"], "tools": [], "tokens": 20, "cost": 2.9999999999999997e-06}
+{"timestamp": "2026-07-03T13:03:59.693244+00:00", "session_id": "default_session", "latency": 0.004919528961181641, "agents": ["crop_agent"], "tools": [], "tokens": 21, "cost": 3.15e-06}
+{"timestamp": "2026-07-03T13:03:59.751849+00:00", "session_id": "default_session", "latency": 0.05415010452270508, "agents": ["crop_agent"], "tools": [], "tokens": 13, "cost": 1.9499999999999995e-06}
+{"timestamp": "2026-07-03T13:04:02.267596+00:00", "session_id": "default_session", "latency": 2.394012928009033, "agents": ["crop_agent"], "tools": [], "tokens": 14, "cost": 2.1e-06}
+{"timestamp": "2026-07-03T13:04:59.259561+00:00", "session_id": "default_session", "latency": 1.186333417892456, "agents": ["weather_agent"], "tools": [], "tokens": 20, "cost": 2.9999999999999997e-06}
+{"timestamp": "2026-07-03T13:05:00.225346+00:00", "session_id": "default_session", "latency": 0.9633533954620361, "agents": ["location_agent"], "tools": [], "tokens": 23, "cost": 3.4499999999999996e-06}
+{"timestamp": "2026-07-03T13:05:01.699095+00:00", "session_id": "default_session", "latency": 1.4672675132751465, "agents": ["disease_agent"], "tools": [], "tokens": 9, "cost": 1.3499999999999998e-06}
+{"timestamp": "2026-07-03T13:05:02.580925+00:00", "session_id": "default_session", "latency": 0.8790144920349121, "agents": ["disease_agent", "weather_agent"], "tools": [], "tokens": 23, "cost": 3.4499999999999996e-06}
+{"timestamp": "2026-07-03T13:05:02.587177+00:00", "session_id": "default_session", "latency": 0.004389047622680664, "agents": [], "tools": [], "tokens": 0, "cost": 0.0}
+{"timestamp": "2026-07-03T13:05:02.594671+00:00", "session_id": "default_session", "latency": 0.0053403377532958984, "agents": [], "tools": [], "tokens": 0, "cost": 0.0}
+{"timestamp": "2026-07-03T13:05:02.597366+00:00", "session_id": "default_session", "latency": 0.00039577484130859375, "agents": ["general_agent"], "tools": [], "tokens": 0, "cost": 0.0}
+{"timestamp": "2026-07-03T13:05:02.605338+00:00", "session_id": "default_session", "latency": 0.004042148590087891, "agents": ["crop_agent"], "tools": [], "tokens": 20, "cost": 2.9999999999999997e-06}
+{"timestamp": "2026-07-03T13:05:02.612204+00:00", "session_id": "default_session", "latency": 0.004019975662231445, "agents": ["crop_agent"], "tools": [], "tokens": 21, "cost": 3.15e-06}
+{"timestamp": "2026-07-03T13:05:02.669697+00:00", "session_id": "default_session", "latency": 0.054921865463256836, "agents": ["crop_agent"], "tools": [], "tokens": 13, "cost": 1.9499999999999995e-06}
+{"timestamp": "2026-07-03T13:05:04.183777+00:00", "session_id": "default_session", "latency": 1.3842768669128418, "agents": ["crop_agent"], "tools": [], "tokens": 14, "cost": 2.1e-06}
+{"timestamp": "2026-07-03T13:24:50.398122+00:00", "session_id": "user_4", "latency": 0.13693761825561523, "agents": ["general_agent"], "tools": [], "tokens": 0, "cost": 0.0}
+{"timestamp": "2026-07-03T13:41:46.143906+00:00", "session_id": "default_session", "latency": 1.3240625858306885, "agents": ["weather_agent"], "tools": [], "tokens": 20, "cost": 2.9999999999999997e-06}
+{"timestamp": "2026-07-03T13:41:48.127039+00:00", "session_id": "default_session", "latency": 1.980699062347412, "agents": ["location_agent"], "tools": [], "tokens": 23, "cost": 3.4499999999999996e-06}
+{"timestamp": "2026-07-03T13:41:49.730721+00:00", "session_id": "default_session", "latency": 1.600297451019287, "agents": ["disease_agent"], "tools": [], "tokens": 9, "cost": 1.3499999999999998e-06}
+{"timestamp": "2026-07-03T13:41:50.904480+00:00", "session_id": "default_session", "latency": 1.1696958541870117, "agents": ["disease_agent", "weather_agent"], "tools": [], "tokens": 23, "cost": 3.4499999999999996e-06}
+{"timestamp": "2026-07-03T13:41:50.914854+00:00", "session_id": "default_session", "latency": 0.007223606109619141, "agents": [], "tools": [], "tokens": 0, "cost": 0.0}
+{"timestamp": "2026-07-03T13:41:50.924889+00:00", "session_id": "default_session", "latency": 0.007792472839355469, "agents": [], "tools": [], "tokens": 0, "cost": 0.0}
+{"timestamp": "2026-07-03T13:41:50.927648+00:00", "session_id": "default_session", "latency": 0.00039958953857421875, "agents": ["general_agent"], "tools": [], "tokens": 0, "cost": 0.0}
+{"timestamp": "2026-07-03T13:41:50.939725+00:00", "session_id": "default_session", "latency": 0.0075893402099609375, "agents": ["crop_agent"], "tools": [], "tokens": 20, "cost": 2.9999999999999997e-06}
+{"timestamp": "2026-07-03T13:41:50.950597+00:00", "session_id": "default_session", "latency": 0.0060732364654541016, "agents": ["crop_agent"], "tools": [], "tokens": 21, "cost": 3.15e-06}
+{"timestamp": "2026-07-03T13:41:51.009213+00:00", "session_id": "default_session", "latency": 0.05587315559387207, "agents": ["crop_agent"], "tools": [], "tokens": 13, "cost": 1.9499999999999995e-06}
+{"timestamp": "2026-07-03T13:42:04.484571+00:00", "session_id": "default_session", "latency": 13.311704397201538, "agents": ["crop_agent"], "tools": [], "tokens": 14, "cost": 2.1e-06}
+{"timestamp": "2026-07-05T09:21:05.477836+00:00", "session_id": "default_session", "latency": 3.8843417167663574, "agents": ["weather_agent"], "tools": [], "tokens": 16, "cost": 2.4e-06}
+{"timestamp": "2026-07-05T09:21:13.511225+00:00", "session_id": "default_session", "latency": 8.019310474395752, "agents": ["disease_agent"], "tools": [], "tokens": 18, "cost": 2.6999999999999996e-06}
+{"timestamp": "2026-07-05T09:21:15.232737+00:00", "session_id": "default_session", "latency": 1.7204663753509521, "agents": ["disease_agent", "weather_agent"], "tools": [], "tokens": 24, "cost": 3.6e-06}
+{"timestamp": "2026-07-05T09:21:15.237991+00:00", "session_id": "default_session", "latency": 0.004320383071899414, "agents": [], "tools": [], "tokens": 0, "cost": 0.0}
+{"timestamp": "2026-07-05T09:21:16.956834+00:00", "session_id": "default_session", "latency": 1.717886209487915, "agents": [], "tools": [], "tokens": 0, "cost": 0.0}
+{"timestamp": "2026-07-05T09:21:18.715997+00:00", "session_id": "default_session", "latency": 1.7582736015319824, "agents": ["crop_agent"], "tools": [], "tokens": 16, "cost": 2.4e-06}
+{"timestamp": "2026-07-05T09:21:22.143736+00:00", "session_id": "default_session", "latency": 1.4197447299957275, "agents": ["weather_agent"], "tools": [], "tokens": 20, "cost": 2.9999999999999997e-06}
+{"timestamp": "2026-07-05T09:21:23.243232+00:00", "session_id": "default_session", "latency": 1.0971651077270508, "agents": ["location_agent"], "tools": [], "tokens": 23, "cost": 3.4499999999999996e-06}
+{"timestamp": "2026-07-05T09:21:24.156897+00:00", "session_id": "default_session", "latency": 0.9112577438354492, "agents": ["disease_agent"], "tools": [], "tokens": 9, "cost": 1.3499999999999998e-06}
+{"timestamp": "2026-07-05T09:21:25.096563+00:00", "session_id": "default_session", "latency": 0.9372994899749756, "agents": ["disease_agent", "weather_agent"], "tools": [], "tokens": 23, "cost": 3.4499999999999996e-06}
+{"timestamp": "2026-07-05T09:21:25.103550+00:00", "session_id": "default_session", "latency": 0.0044901371002197266, "agents": [], "tools": [], "tokens": 0, "cost": 0.0}
+{"timestamp": "2026-07-05T09:21:25.109885+00:00", "session_id": "default_session", "latency": 0.004277229309082031, "agents": [], "tools": [], "tokens": 0, "cost": 0.0}
+{"timestamp": "2026-07-05T09:21:25.112087+00:00", "session_id": "default_session", "latency": 0.00023984909057617188, "agents": ["general_agent"], "tools": [], "tokens": 0, "cost": 0.0}
+{"timestamp": "2026-07-05T09:21:29.344023+00:00", "session_id": "default_session", "latency": 2.3766911029815674, "agents": ["weather_agent"], "tools": [], "tokens": 16, "cost": 2.4e-06}
+{"timestamp": "2026-07-05T09:21:31.610565+00:00", "session_id": "default_session", "latency": 2.2522177696228027, "agents": ["disease_agent"], "tools": [], "tokens": 18, "cost": 2.6999999999999996e-06}
+{"timestamp": "2026-07-05T09:21:34.102307+00:00", "session_id": "default_session", "latency": 2.490955352783203, "agents": ["disease_agent", "weather_agent"], "tools": [], "tokens": 24, "cost": 3.6e-06}
+{"timestamp": "2026-07-05T09:21:34.107747+00:00", "session_id": "default_session", "latency": 0.004730224609375, "agents": [], "tools": [], "tokens": 0, "cost": 0.0}
+{"timestamp": "2026-07-05T09:21:35.799574+00:00", "session_id": "default_session", "latency": 1.691133975982666, "agents": [], "tools": [], "tokens": 0, "cost": 0.0}
+{"timestamp": "2026-07-05T09:21:36.832852+00:00", "session_id": "default_session", "latency": 1.0326032638549805, "agents": ["crop_agent"], "tools": [], "tokens": 22, "cost": 3.2999999999999993e-06}
+{"timestamp": "2026-07-05T09:21:46.470158+00:00", "session_id": "default_session", "latency": 0.09725427627563477, "agents": ["crop_agent"], "tools": [], "tokens": 20, "cost": 2.9999999999999997e-06}
+{"timestamp": "2026-07-05T09:21:46.477125+00:00", "session_id": "default_session", "latency": 0.004280567169189453, "agents": ["crop_agent"], "tools": [], "tokens": 21, "cost": 3.15e-06}
+{"timestamp": "2026-07-05T09:21:46.537212+00:00", "session_id": "default_session", "latency": 0.057152748107910156, "agents": ["crop_agent"], "tools": [], "tokens": 13, "cost": 1.9499999999999995e-06}
+{"timestamp": "2026-07-05T09:22:18.244471+00:00", "session_id": "default_session", "latency": 0.9129934310913086, "agents": ["crop_agent"], "tools": [], "tokens": 14, "cost": 2.1e-06}
+{"timestamp": "2026-07-05T09:30:29.398146+00:00", "session_id": "default_session", "latency": 4.8480987548828125, "agents": ["weather_agent"], "tools": [], "tokens": 16, "cost": 2.4e-06}
+{"timestamp": "2026-07-05T09:30:30.393304+00:00", "session_id": "default_session", "latency": 0.9794473648071289, "agents": ["disease_agent"], "tools": [], "tokens": 18, "cost": 2.6999999999999996e-06}
+{"timestamp": "2026-07-05T09:30:31.327274+00:00", "session_id": "default_session", "latency": 0.9329404830932617, "agents": ["disease_agent", "weather_agent"], "tools": [], "tokens": 24, "cost": 3.6e-06}
+{"timestamp": "2026-07-05T09:30:31.333711+00:00", "session_id": "default_session", "latency": 0.0053234100341796875, "agents": [], "tools": [], "tokens": 0, "cost": 0.0}
+{"timestamp": "2026-07-05T09:30:32.145160+00:00", "session_id": "default_session", "latency": 0.8104360103607178, "agents": [], "tools": [], "tokens": 0, "cost": 0.0}
+{"timestamp": "2026-07-05T09:30:33.014069+00:00", "session_id": "default_session", "latency": 0.8681631088256836, "agents": ["crop_agent"], "tools": [], "tokens": 12, "cost": 1.8e-06}
+{"timestamp": "2026-07-05T09:30:41.170540+00:00", "session_id": "default_session", "latency": 6.151443719863892, "agents": ["weather_agent"], "tools": [], "tokens": 20, "cost": 2.9999999999999997e-06}
+{"timestamp": "2026-07-05T09:30:44.044258+00:00", "session_id": "default_session", "latency": 2.8714792728424072, "agents": ["location_agent"], "tools": [], "tokens": 23, "cost": 3.4499999999999996e-06}
+{"timestamp": "2026-07-05T09:30:49.330612+00:00", "session_id": "default_session", "latency": 5.284102201461792, "agents": ["disease_agent"], "tools": [], "tokens": 9, "cost": 1.3499999999999998e-06}
+{"timestamp": "2026-07-05T09:30:50.447266+00:00", "session_id": "default_session", "latency": 1.1144063472747803, "agents": ["disease_agent", "weather_agent"], "tools": [], "tokens": 23, "cost": 3.4499999999999996e-06}
+{"timestamp": "2026-07-05T09:30:50.453708+00:00", "session_id": "default_session", "latency": 0.0042765140533447266, "agents": [], "tools": [], "tokens": 0, "cost": 0.0}
+{"timestamp": "2026-07-05T09:30:50.460375+00:00", "session_id": "default_session", "latency": 0.004720211029052734, "agents": [], "tools": [], "tokens": 0, "cost": 0.0}
+{"timestamp": "2026-07-05T09:30:50.462511+00:00", "session_id": "default_session", "latency": 0.0002887248992919922, "agents": ["general_agent"], "tools": [], "tokens": 0, "cost": 0.0}
+{"timestamp": "2026-07-05T09:30:53.379911+00:00", "session_id": "default_session", "latency": 1.0654218196868896, "agents": ["weather_agent"], "tools": [], "tokens": 16, "cost": 2.4e-06}
+{"timestamp": "2026-07-05T09:30:54.247509+00:00", "session_id": "default_session", "latency": 0.8508124351501465, "agents": ["disease_agent"], "tools": [], "tokens": 18, "cost": 2.6999999999999996e-06}
+{"timestamp": "2026-07-05T09:30:55.174714+00:00", "session_id": "default_session", "latency": 0.9264206886291504, "agents": ["disease_agent", "weather_agent"], "tools": [], "tokens": 24, "cost": 3.6e-06}
+{"timestamp": "2026-07-05T09:30:55.180006+00:00", "session_id": "default_session", "latency": 0.004465579986572266, "agents": [], "tools": [], "tokens": 0, "cost": 0.0}
+{"timestamp": "2026-07-05T09:30:55.984180+00:00", "session_id": "default_session", "latency": 0.8034355640411377, "agents": [], "tools": [], "tokens": 0, "cost": 0.0}
+{"timestamp": "2026-07-05T09:30:56.965582+00:00", "session_id": "default_session", "latency": 0.9807929992675781, "agents": ["crop_agent"], "tools": [], "tokens": 16, "cost": 2.4e-06}
+{"timestamp": "2026-07-05T09:31:06.403883+00:00", "session_id": "default_session", "latency": 0.09314227104187012, "agents": ["crop_agent"], "tools": [], "tokens": 20, "cost": 2.9999999999999997e-06}
+{"timestamp": "2026-07-05T09:31:06.411689+00:00", "session_id": "default_session", "latency": 0.0042781829833984375, "agents": ["crop_agent"], "tools": [], "tokens": 21, "cost": 3.15e-06}
+{"timestamp": "2026-07-05T09:31:06.470177+00:00", "session_id": "default_session", "latency": 0.05589151382446289, "agents": ["crop_agent"], "tools": [], "tokens": 13, "cost": 1.9499999999999995e-06}
+{"timestamp": "2026-07-05T09:31:41.672136+00:00", "session_id": "default_session", "latency": 0.9558014869689941, "agents": ["crop_agent"], "tools": [], "tokens": 14, "cost": 2.1e-06}
+{"timestamp": "2026-07-05T09:42:54.034304+00:00", "session_id": "session_1782927575508", "latency": 0.13503313064575195, "agents": ["general_agent"], "tools": [], "tokens": 0, "cost": 0.0}
+{"timestamp": "2026-07-05T09:43:52.062919+00:00", "session_id": "session_1782927575508", "latency": 36.03137922286987, "agents": ["location_agent", "weather_agent"], "tools": ["location_mcp", "weather_mcp"], "tokens": 9, "cost": 1.3499999999999998e-06}
+{"timestamp": "2026-07-05T09:45:18.660461+00:00", "session_id": "session_1782927575508", "latency": 45.356422424316406, "agents": ["location_agent", "weather_agent", "crop_agent"], "tools": ["reverse_geocode", "weather_mcp", "crop_db_mcp"], "tokens": 198, "cost": 2.97e-05}
+{"timestamp": "2026-07-05T09:47:36.067026+00:00", "session_id": "session_1782391990444", "latency": 18.46456789970398, "agents": [], "tools": [], "tokens": 37, "cost": 5.549999999999999e-06}
+{"timestamp": "2026-07-05T09:48:48.670500+00:00", "session_id": "session_1782391990444", "latency": 54.12307286262512, "agents": ["location_agent", "weather_agent"], "tools": ["location_mcp", "weather_mcp"], "tokens": 20, "cost": 2.9999999999999997e-06}
+{"timestamp": "2026-07-05T09:49:23.858737+00:00", "session_id": "session_1782391990444", "latency": 0.13625454902648926, "agents": ["general_agent"], "tools": [], "tokens": 0, "cost": 0.0}
+{"timestamp": "2026-07-05T09:50:24.131785+00:00", "session_id": "session_1782391990444", "latency": 37.6103401184082, "agents": ["weather_agent"], "tools": ["weather_mcp"], "tokens": 41, "cost": 6.1499999999999996e-06}
+{"timestamp": "2026-07-05T10:00:38.386120+00:00", "session_id": "session_1782927575508", "latency": 147.87372493743896, "agents": ["location_agent", "weather_agent", "crop_agent"], "tools": ["location_mcp", "weather_mcp", "crop_db_mcp"], "tokens": 1087, "cost": 0.00016304999999999998}
+{"timestamp": "2026-07-05T10:14:08.786586+00:00", "session_id": "session_1782391990444", "latency": 21.946873664855957, "agents": [], "tools": [], "tokens": 312, "cost": 4.68e-05}
+{"timestamp": "2026-07-05T12:51:57.733135+00:00", "session_id": "session_1783255845248", "latency": 35.24122881889343, "agents": [], "tools": [], "tokens": 842, "cost": 0.00012629999999999998}
+{"timestamp": "2026-07-05T12:55:11.541482+00:00", "session_id": "session_1783256043442", "latency": 15.640342712402344, "agents": [], "tools": [], "tokens": 973, "cost": 0.00014595}
+{"timestamp": "2026-07-05T12:56:53.440438+00:00", "session_id": "session_1783256172599", "latency": 9.158979654312134, "agents": [], "tools": [], "tokens": 151, "cost": 2.2649999999999998e-05}
+{"timestamp": "2026-07-05T12:59:18.984492+00:00", "session_id": "session_1783256269267", "latency": 49.956944942474365, "agents": [], "tools": [], "tokens": 1886, "cost": 0.00028289999999999994}
+{"timestamp": "2026-07-05T13:58:17.671678+00:00", "session_id": "session_1783256708875", "latency": 84.12187814712524, "agents": ["disease_agent"], "tools": ["vision"], "tokens": 826, "cost": 0.00012389999999999998}
+{"timestamp": "2026-07-05T14:01:01.450689+00:00", "session_id": "session_1783256708875", "latency": 99.23757314682007, "agents": ["location_agent", "weather_agent", "crop_agent"], "tools": ["location_mcp", "weather_mcp", "crop_db_mcp"], "tokens": 1063, "cost": 0.00015944999999999997}
+{"timestamp": "2026-07-05T14:04:52.513859+00:00", "session_id": "session_1783256708875", "latency": 93.56814765930176, "agents": ["location_agent", "weather_agent"], "tools": ["location_mcp", "weather_mcp"], "tokens": 8, "cost": 1.2e-06}
+{"timestamp": "2026-07-05T14:35:42.438690+00:00", "session_id": "session_1783256708875", "latency": 56.83992862701416, "agents": [], "tools": [], "tokens": 0, "cost": 0.0}
+{"timestamp": "2026-07-05T14:40:01.306319+00:00", "session_id": "session_1783262182305", "latency": 203.1925392150879, "agents": ["location_agent", "weather_agent"], "tools": ["location_mcp", "weather_mcp"], "tokens": 107, "cost": 1.6049999999999997e-05}
+{"timestamp": "2026-07-05T14:51:34.312311+00:00", "session_id": "session_1783262538967", "latency": 247.0468044281006, "agents": ["location_agent", "weather_agent"], "tools": ["location_mcp", "weather_mcp"], "tokens": 35, "cost": 5.25e-06}
+{"timestamp": "2026-07-05T14:55:58.048058+00:00", "session_id": "session_1783263286703", "latency": 54.49196219444275, "agents": ["crop_agent"], "tools": ["crop_db_mcp"], "tokens": 565, "cost": 8.474999999999999e-05}
+{"timestamp": "2026-07-05T14:58:48.364420+00:00", "session_id": "session_1783263458063", "latency": 53.21058702468872, "agents": ["crop_agent"], "tools": ["crop_db_mcp"], "tokens": 457, "cost": 6.855e-05}
+{"timestamp": "2026-07-05T15:10:24.408019+00:00", "session_id": "session_1783262538967", "latency": 40.65628743171692, "agents": ["location_agent", "weather_agent"], "tools": ["reverse_geocode", "weather_mcp"], "tokens": 19, "cost": 2.85e-06}
+{"timestamp": "2026-07-05T15:21:34.389618+00:00", "session_id": "session_1783262538967", "latency": 83.88704681396484, "agents": ["location_agent", "crop_agent", "weather_agent"], "tools": ["location_mcp", "crop_db_mcp", "weather_mcp"], "tokens": 903, "cost": 0.00013544999999999999}
+{"timestamp": "2026-07-05T15:40:45.853836+00:00", "session_id": "session_1783266015485", "latency": 18.770050525665283, "agents": ["weather_agent"], "tools": ["weather_mcp"], "tokens": 445, "cost": 6.675e-05}
+{"timestamp": "2026-07-05T15:41:23.031742+00:00", "session_id": "session_1783266015485", "latency": 0.012722969055175781, "agents": [], "tools": [], "tokens": 0, "cost": 0.0}
+{"timestamp": "2026-07-05T15:42:55.737641+00:00", "session_id": "session_1783266122845", "latency": 10.197531700134277, "agents": ["disease_agent"], "tools": ["vision"], "tokens": 0, "cost": 0.0}
+{"timestamp": "2026-07-05T16:06:04.636382+00:00", "session_id": "session_1783267524891", "latency": 36.81014823913574, "agents": ["weather_agent"], "tools": ["weather_mcp"], "tokens": 203, "cost": 3.0449999999999998e-05}
+{"timestamp": "2026-07-05T16:08:12.640263+00:00", "session_id": "session_1783267524891", "latency": 115.57704520225525, "agents": ["location_agent", "weather_agent", "crop_agent"], "tools": ["location_mcp", "weather_mcp", "crop_db_mcp"], "tokens": 66, "cost": 9.9e-06}
+{"timestamp": "2026-07-05T17:35:04.358717+00:00", "session_id": "default_session", "latency": 4.289118051528931, "agents": ["weather_agent"], "tools": [], "tokens": 20, "cost": 2.9999999999999997e-06}
+{"timestamp": "2026-07-05T17:35:07.428772+00:00", "session_id": "default_session", "latency": 3.0648810863494873, "agents": ["location_agent"], "tools": [], "tokens": 23, "cost": 3.4499999999999996e-06}
+{"timestamp": "2026-07-05T17:35:10.488916+00:00", "session_id": "default_session", "latency": 3.054845094680786, "agents": ["disease_agent"], "tools": [], "tokens": 9, "cost": 1.3499999999999998e-06}
+{"timestamp": "2026-07-05T17:35:13.590238+00:00", "session_id": "default_session", "latency": 3.095770835876465, "agents": ["disease_agent", "weather_agent"], "tools": [], "tokens": 23, "cost": 3.4499999999999996e-06}
+{"timestamp": "2026-07-05T17:35:13.603657+00:00", "session_id": "default_session", "latency": 0.0062940120697021484, "agents": [], "tools": [], "tokens": 0, "cost": 0.0}
+{"timestamp": "2026-07-05T17:35:13.616505+00:00", "session_id": "default_session", "latency": 0.008070707321166992, "agents": [], "tools": [], "tokens": 0, "cost": 0.0}
+{"timestamp": "2026-07-05T17:35:13.621484+00:00", "session_id": "default_session", "latency": 9.965896606445312e-05, "agents": ["general_agent"], "tools": [], "tokens": 0, "cost": 0.0}
+{"timestamp": "2026-07-05T17:35:13.637327+00:00", "session_id": "default_session", "latency": 0.006521701812744141, "agents": ["crop_agent"], "tools": [], "tokens": 20, "cost": 2.9999999999999997e-06}
+{"timestamp": "2026-07-05T17:35:13.651046+00:00", "session_id": "default_session", "latency": 0.007886409759521484, "agents": ["crop_agent"], "tools": [], "tokens": 21, "cost": 3.15e-06}
+{"timestamp": "2026-07-05T17:35:13.735650+00:00", "session_id": "default_session", "latency": 0.07863903045654297, "agents": ["crop_agent"], "tools": [], "tokens": 13, "cost": 1.9499999999999995e-06}
+{"timestamp": "2026-07-05T17:35:17.052201+00:00", "session_id": "default_session", "latency": 3.037278890609741, "agents": ["crop_agent"], "tools": [], "tokens": 14, "cost": 2.1e-06}
+{"timestamp": "2026-07-05T17:40:03.956983+00:00", "session_id": "default_session", "latency": 6.258033990859985, "agents": ["weather_agent"], "tools": [], "tokens": 20, "cost": 2.9999999999999997e-06}
+{"timestamp": "2026-07-05T17:40:10.113945+00:00", "session_id": "default_session", "latency": 6.151316404342651, "agents": ["location_agent"], "tools": [], "tokens": 23, "cost": 3.4499999999999996e-06}
+{"timestamp": "2026-07-05T17:40:16.202797+00:00", "session_id": "default_session", "latency": 6.084338665008545, "agents": ["disease_agent"], "tools": [], "tokens": 9, "cost": 1.3499999999999998e-06}
+{"timestamp": "2026-07-05T17:40:22.313286+00:00", "session_id": "default_session", "latency": 6.105961322784424, "agents": ["disease_agent", "weather_agent"], "tools": [], "tokens": 23, "cost": 3.4499999999999996e-06}
+{"timestamp": "2026-07-05T17:40:22.323256+00:00", "session_id": "default_session", "latency": 0.00481414794921875, "agents": [], "tools": [], "tokens": 0, "cost": 0.0}
+{"timestamp": "2026-07-05T17:40:22.332871+00:00", "session_id": "default_session", "latency": 0.0055582523345947266, "agents": [], "tools": [], "tokens": 0, "cost": 0.0}
+{"timestamp": "2026-07-05T17:40:22.337184+00:00", "session_id": "default_session", "latency": 8.249282836914062e-05, "agents": ["general_agent"], "tools": [], "tokens": 0, "cost": 0.0}
+{"timestamp": "2026-07-05T17:40:22.348225+00:00", "session_id": "default_session", "latency": 0.005506038665771484, "agents": ["crop_agent"], "tools": [], "tokens": 20, "cost": 2.9999999999999997e-06}
+{"timestamp": "2026-07-05T17:40:22.358706+00:00", "session_id": "default_session", "latency": 0.005367279052734375, "agents": ["crop_agent"], "tools": [], "tokens": 21, "cost": 3.15e-06}
+{"timestamp": "2026-07-05T17:40:22.421316+00:00", "session_id": "default_session", "latency": 0.05779695510864258, "agents": ["crop_agent"], "tools": [], "tokens": 13, "cost": 1.9499999999999995e-06}
+{"timestamp": "2026-07-05T17:40:28.677340+00:00", "session_id": "default_session", "latency": 6.095463275909424, "agents": ["crop_agent"], "tools": [], "tokens": 14, "cost": 2.1e-06}
+{"timestamp": "2026-07-05T17:50:48.332142+00:00", "session_id": "default_session", "latency": 6.2890543937683105, "agents": ["weather_agent"], "tools": [], "tokens": 20, "cost": 2.9999999999999997e-06}
+{"timestamp": "2026-07-05T17:50:54.478723+00:00", "session_id": "default_session", "latency": 6.140337944030762, "agents": ["location_agent"], "tools": [], "tokens": 23, "cost": 3.4499999999999996e-06}
+{"timestamp": "2026-07-05T17:51:00.646904+00:00", "session_id": "default_session", "latency": 6.161694288253784, "agents": ["disease_agent"], "tools": [], "tokens": 9, "cost": 1.3499999999999998e-06}
+{"timestamp": "2026-07-05T17:51:06.785092+00:00", "session_id": "default_session", "latency": 6.13213324546814, "agents": ["disease_agent", "weather_agent"], "tools": [], "tokens": 23, "cost": 3.4499999999999996e-06}
+{"timestamp": "2026-07-05T17:51:06.798938+00:00", "session_id": "default_session", "latency": 0.007048845291137695, "agents": [], "tools": [], "tokens": 0, "cost": 0.0}
+{"timestamp": "2026-07-05T17:51:06.813239+00:00", "session_id": "default_session", "latency": 0.007588863372802734, "agents": [], "tools": [], "tokens": 0, "cost": 0.0}
+{"timestamp": "2026-07-05T17:51:06.825798+00:00", "session_id": "default_session", "latency": 0.00012087821960449219, "agents": ["general_agent"], "tools": [], "tokens": 0, "cost": 0.0}
+{"timestamp": "2026-07-05T17:51:06.840099+00:00", "session_id": "default_session", "latency": 0.006978273391723633, "agents": ["crop_agent"], "tools": [], "tokens": 20, "cost": 2.9999999999999997e-06}
+{"timestamp": "2026-07-05T17:51:06.856083+00:00", "session_id": "default_session", "latency": 0.008458614349365234, "agents": ["crop_agent"], "tools": [], "tokens": 21, "cost": 3.15e-06}
+{"timestamp": "2026-07-05T17:51:06.938510+00:00", "session_id": "default_session", "latency": 0.06396031379699707, "agents": ["crop_agent"], "tools": [], "tokens": 13, "cost": 1.9499999999999995e-06}
+{"timestamp": "2026-07-05T17:51:13.516481+00:00", "session_id": "default_session", "latency": 6.256882905960083, "agents": ["crop_agent"], "tools": [], "tokens": 14, "cost": 2.1e-06}
+{"timestamp": "2026-07-05T17:58:18.328519+00:00", "session_id": "qa_smoke", "latency": 0.5784587860107422, "agents": ["general_agent"], "tools": [], "tokens": 0, "cost": 0.0}
+{"timestamp": "2026-07-05T18:05:27.795345+00:00", "session_id": "session_1783274710554", "latency": 6.800002098083496, "agents": [], "tools": [], "tokens": 0, "cost": 0.0}
+{"timestamp": "2026-07-05T18:09:33.471728+00:00", "session_id": "lang_smoke", "latency": 3.2415218353271484, "agents": ["general_agent"], "tools": [], "tokens": 0, "cost": 0.0}
+{"timestamp": "2026-07-05T18:09:33.676910+00:00", "session_id": "lang_smoke", "latency": 0.18751311302185059, "agents": ["general_agent"], "tools": [], "tokens": 0, "cost": 0.0}
+{"timestamp": "2026-07-05T18:12:26.683550+00:00", "session_id": "default_session", "latency": 6.694633722305298, "agents": ["weather_agent"], "tools": [], "tokens": 20, "cost": 2.9999999999999997e-06}
+{"timestamp": "2026-07-05T18:12:32.785620+00:00", "session_id": "default_session", "latency": 6.095947742462158, "agents": ["location_agent"], "tools": [], "tokens": 23, "cost": 3.4499999999999996e-06}
+{"timestamp": "2026-07-05T18:12:38.869736+00:00", "session_id": "default_session", "latency": 6.076261520385742, "agents": ["disease_agent"], "tools": [], "tokens": 9, "cost": 1.3499999999999998e-06}
+{"timestamp": "2026-07-05T18:12:42.657078+00:00", "session_id": "session_1783275117996", "latency": 39.96208119392395, "agents": ["location_agent"], "tools": ["location_mcp"], "tokens": 93, "cost": 1.3949999999999999e-05}
+{"timestamp": "2026-07-05T18:12:45.066725+00:00", "session_id": "default_session", "latency": 6.191504716873169, "agents": ["disease_agent", "weather_agent"], "tools": [], "tokens": 23, "cost": 3.4499999999999996e-06}
+{"timestamp": "2026-07-05T18:12:45.083567+00:00", "session_id": "default_session", "latency": 0.008289098739624023, "agents": [], "tools": [], "tokens": 0, "cost": 0.0}
+{"timestamp": "2026-07-05T18:12:45.094386+00:00", "session_id": "default_session", "latency": 0.006918907165527344, "agents": [], "tools": [], "tokens": 0, "cost": 0.0}
+{"timestamp": "2026-07-05T18:12:45.149227+00:00", "session_id": "default_session", "latency": 0.00010085105895996094, "agents": ["general_agent"], "tools": [], "tokens": 0, "cost": 0.0}
+{"timestamp": "2026-07-05T18:14:05.114997+00:00", "session_id": "lang_smoke_hi", "latency": 0.17949128150939941, "agents": ["general_agent"], "tools": [], "tokens": 0, "cost": 0.0}
+{"timestamp": "2026-07-05T18:14:05.389227+00:00", "session_id": "lang_smoke_or", "latency": 0.1718142032623291, "agents": ["general_agent"], "tools": [], "tokens": 0, "cost": 0.0}
+{"timestamp": "2026-07-05T18:18:32.454358+00:00", "session_id": "session_1783275480601", "latency": 25.148592233657837, "agents": ["weather_agent"], "tools": ["weather_mcp"], "tokens": 105, "cost": 1.5749999999999997e-05}
+{"timestamp": "2026-07-06T05:02:49.007675+00:00", "session_id": "session_1783275480601", "latency": 23.381767988204956, "agents": ["weather_agent"], "tools": ["weather_mcp"], "tokens": 763, "cost": 0.00011444999999999999}
+{"timestamp": "2026-07-06T05:19:10.478029+00:00", "session_id": "session_1783275480601", "latency": 51.53357648849487, "agents": ["location_agent", "weather_agent", "crop_agent"], "tools": ["reverse_geocode", "weather_mcp", "crop_db_mcp"], "tokens": 1275, "cost": 0.00019124999999999996}
+{"timestamp": "2026-07-06T05:40:37.889202+00:00", "session_id": "default_session", "latency": 1.6201982498168945, "agents": ["weather_agent"], "tools": [], "tokens": 16, "cost": 2.4e-06}
+{"timestamp": "2026-07-06T05:40:38.829436+00:00", "session_id": "default_session", "latency": 0.882086992263794, "agents": ["disease_agent"], "tools": [], "tokens": 18, "cost": 2.6999999999999996e-06}
+{"timestamp": "2026-07-06T05:40:39.809435+00:00", "session_id": "default_session", "latency": 0.9792559146881104, "agents": ["disease_agent", "weather_agent"], "tools": [], "tokens": 24, "cost": 3.6e-06}
+{"timestamp": "2026-07-06T05:40:39.814845+00:00", "session_id": "default_session", "latency": 0.0045697689056396484, "agents": [], "tools": [], "tokens": 0, "cost": 0.0}
+{"timestamp": "2026-07-06T05:40:40.664192+00:00", "session_id": "default_session", "latency": 0.8485884666442871, "agents": [], "tools": [], "tokens": 0, "cost": 0.0}
+{"timestamp": "2026-07-06T05:40:41.521530+00:00", "session_id": "default_session", "latency": 0.8567404747009277, "agents": ["crop_agent"], "tools": [], "tokens": 16, "cost": 2.4e-06}
+{"timestamp": "2026-07-06T05:40:49.856695+00:00", "session_id": "default_session", "latency": 1.2513110637664795, "agents": ["weather_agent"], "tools": [], "tokens": 16, "cost": 2.4e-06}
+{"timestamp": "2026-07-06T05:40:51.632403+00:00", "session_id": "default_session", "latency": 1.7601356506347656, "agents": ["disease_agent"], "tools": [], "tokens": 18, "cost": 2.6999999999999996e-06}
+{"timestamp": "2026-07-06T05:40:53.045394+00:00", "session_id": "default_session", "latency": 1.4122815132141113, "agents": ["disease_agent", "weather_agent"], "tools": [], "tokens": 24, "cost": 3.6e-06}
+{"timestamp": "2026-07-06T05:40:53.050900+00:00", "session_id": "default_session", "latency": 0.004626274108886719, "agents": [], "tools": [], "tokens": 0, "cost": 0.0}
+{"timestamp": "2026-07-06T05:40:54.948680+00:00", "session_id": "default_session", "latency": 1.8970611095428467, "agents": [], "tools": [], "tokens": 0, "cost": 0.0}
+{"timestamp": "2026-07-06T05:40:55.804283+00:00", "session_id": "default_session", "latency": 0.854752779006958, "agents": ["crop_agent"], "tools": [], "tokens": 16, "cost": 2.4e-06}
+{"timestamp": "2026-07-06T05:54:56.933227+00:00", "session_id": "default_session", "latency": 1.1078386306762695, "agents": ["weather_agent"], "tools": [], "tokens": 16, "cost": 2.4e-06}
+{"timestamp": "2026-07-06T05:54:58.023839+00:00", "session_id": "default_session", "latency": 1.0724992752075195, "agents": ["disease_agent"], "tools": [], "tokens": 18, "cost": 2.6999999999999996e-06}
+{"timestamp": "2026-07-06T05:57:16.132809+00:00", "session_id": "default_session", "latency": 0.13771414756774902, "agents": ["weather_agent"], "tools": [], "tokens": 16, "cost": 2.4e-06}
+{"timestamp": "2026-07-06T05:57:16.162015+00:00", "session_id": "default_session", "latency": 0.013741016387939453, "agents": ["disease_agent"], "tools": [], "tokens": 18, "cost": 2.6999999999999996e-06}
+{"timestamp": "2026-07-06T05:57:16.181700+00:00", "session_id": "default_session", "latency": 0.018877029418945312, "agents": ["disease_agent", "weather_agent"], "tools": [], "tokens": 24, "cost": 3.6e-06}
+{"timestamp": "2026-07-06T05:57:16.187555+00:00", "session_id": "default_session", "latency": 0.00489497184753418, "agents": [], "tools": [], "tokens": 0, "cost": 0.0}
+{"timestamp": "2026-07-06T05:57:16.194317+00:00", "session_id": "default_session", "latency": 0.005800724029541016, "agents": [], "tools": [], "tokens": 0, "cost": 0.0}
+{"timestamp": "2026-07-06T05:57:16.200165+00:00", "session_id": "default_session", "latency": 0.005148887634277344, "agents": ["crop_agent"], "tools": [], "tokens": 16, "cost": 2.4e-06}
+{"timestamp": "2026-07-06T05:57:24.269893+00:00", "session_id": "default_session", "latency": 0.13161396980285645, "agents": ["weather_agent"], "tools": [], "tokens": 16, "cost": 2.4e-06}
+{"timestamp": "2026-07-06T05:57:24.297030+00:00", "session_id": "default_session", "latency": 0.011585235595703125, "agents": ["disease_agent"], "tools": [], "tokens": 18, "cost": 2.6999999999999996e-06}
+{"timestamp": "2026-07-06T05:57:24.326566+00:00", "session_id": "default_session", "latency": 0.02876734733581543, "agents": ["disease_agent", "weather_agent"], "tools": [], "tokens": 24, "cost": 3.6e-06}
+{"timestamp": "2026-07-06T05:57:24.332797+00:00", "session_id": "default_session", "latency": 0.004871368408203125, "agents": [], "tools": [], "tokens": 0, "cost": 0.0}
+{"timestamp": "2026-07-06T05:57:24.338007+00:00", "session_id": "default_session", "latency": 0.00435638427734375, "agents": [], "tools": [], "tokens": 0, "cost": 0.0}
+{"timestamp": "2026-07-06T05:57:24.343667+00:00", "session_id": "default_session", "latency": 0.005011796951293945, "agents": ["crop_agent"], "tools": [], "tokens": 16, "cost": 2.4e-06}
+{"timestamp": "2026-07-06T06:09:04.982833+00:00", "session_id": "session_1783263458063", "latency": 2.0125439167022705, "agents": ["general_agent"], "tools": [], "tokens": 0, "cost": 0.0}
+{"timestamp": "2026-07-06T06:10:21.520256+00:00", "session_id": "session_1783263458063", "latency": 1.3962039947509766, "agents": ["general_agent"], "tools": [], "tokens": 0, "cost": 0.0}
+{"timestamp": "2026-07-06T06:10:46.316181+00:00", "session_id": "session_1783263458063", "latency": 85.18610119819641, "agents": ["weather_agent"], "tools": ["weather_mcp"], "tokens": 130, "cost": 1.95e-05}
+{"timestamp": "2026-07-06T06:12:28.408804+00:00", "session_id": "session_1783318301251", "latency": 23.429572820663452, "agents": ["weather_agent"], "tools": ["weather_mcp"], "tokens": 136, "cost": 2.04e-05}
+{"timestamp": "2026-07-06T06:14:28.920104+00:00", "session_id": "session_1783318454219", "latency": 1.0865049362182617, "agents": ["general_agent"], "tools": [], "tokens": 0, "cost": 0.0}
+{"timestamp": "2026-07-06T06:21:50.703351+00:00", "session_id": "session_1783318301251", "latency": 258.1605660915375, "agents": ["weather_agent"], "tools": ["weather_mcp"], "tokens": 85, "cost": 1.275e-05}
+{"timestamp": "2026-07-06T06:37:36.633937+00:00", "session_id": "default_session", "latency": 0.1758582592010498, "agents": ["weather_agent"], "tools": [], "tokens": 16, "cost": 2.4e-06}
+{"timestamp": "2026-07-06T06:37:36.717039+00:00", "session_id": "default_session", "latency": 0.020987272262573242, "agents": ["disease_agent"], "tools": [], "tokens": 18, "cost": 2.6999999999999996e-06}
+{"timestamp": "2026-07-06T06:37:36.743899+00:00", "session_id": "default_session", "latency": 0.025712251663208008, "agents": ["disease_agent", "weather_agent"], "tools": [], "tokens": 24, "cost": 3.6e-06}
+{"timestamp": "2026-07-06T06:37:36.749323+00:00", "session_id": "default_session", "latency": 0.004467487335205078, "agents": [], "tools": [], "tokens": 0, "cost": 0.0}
+{"timestamp": "2026-07-06T06:37:36.755093+00:00", "session_id": "default_session", "latency": 0.00495147705078125, "agents": [], "tools": [], "tokens": 0, "cost": 0.0}
+{"timestamp": "2026-07-06T06:37:36.760912+00:00", "session_id": "default_session", "latency": 0.0050640106201171875, "agents": ["crop_agent"], "tools": [], "tokens": 16, "cost": 2.4e-06}
+{"timestamp": "2026-07-06T06:37:57.407666+00:00", "session_id": "default_session", "latency": 0.12241721153259277, "agents": ["weather_agent"], "tools": [], "tokens": 16, "cost": 2.4e-06}
+{"timestamp": "2026-07-06T06:37:57.430895+00:00", "session_id": "default_session", "latency": 0.009837865829467773, "agents": ["disease_agent"], "tools": [], "tokens": 18, "cost": 2.6999999999999996e-06}
+{"timestamp": "2026-07-06T06:37:57.446702+00:00", "session_id": "default_session", "latency": 0.015245199203491211, "agents": ["disease_agent", "weather_agent"], "tools": [], "tokens": 24, "cost": 3.6e-06}
+{"timestamp": "2026-07-06T06:37:57.450852+00:00", "session_id": "default_session", "latency": 0.003383636474609375, "agents": [], "tools": [], "tokens": 0, "cost": 0.0}
+{"timestamp": "2026-07-06T06:37:57.454906+00:00", "session_id": "default_session", "latency": 0.003573894500732422, "agents": [], "tools": [], "tokens": 0, "cost": 0.0}
+{"timestamp": "2026-07-06T06:37:57.458773+00:00", "session_id": "default_session", "latency": 0.003370523452758789, "agents": ["crop_agent"], "tools": [], "tokens": 16, "cost": 2.4e-06}
+{"timestamp": "2026-07-06T06:38:01.770589+00:00", "session_id": "default_session", "latency": 2.212043046951294, "agents": ["weather_agent"], "tools": [], "tokens": 20, "cost": 2.9999999999999997e-06}
+{"timestamp": "2026-07-06T06:38:03.179584+00:00", "session_id": "default_session", "latency": 1.4075465202331543, "agents": ["location_agent"], "tools": [], "tokens": 23, "cost": 3.4499999999999996e-06}
+{"timestamp": "2026-07-06T06:38:04.095771+00:00", "session_id": "default_session", "latency": 0.9140357971191406, "agents": ["disease_agent"], "tools": [], "tokens": 9, "cost": 1.3499999999999998e-06}
+{"timestamp": "2026-07-06T06:38:05.720975+00:00", "session_id": "default_session", "latency": 1.6238157749176025, "agents": ["disease_agent", "weather_agent"], "tools": [], "tokens": 23, "cost": 3.4499999999999996e-06}
+{"timestamp": "2026-07-06T06:38:05.726080+00:00", "session_id": "default_session", "latency": 0.003543376922607422, "agents": [], "tools": [], "tokens": 0, "cost": 0.0}
+{"timestamp": "2026-07-06T06:38:05.730630+00:00", "session_id": "default_session", "latency": 0.0032372474670410156, "agents": [], "tools": [], "tokens": 0, "cost": 0.0}
+{"timestamp": "2026-07-06T06:38:08.438025+00:00", "session_id": "default_session", "latency": 2.705975294113159, "agents": ["crop_agent"], "tools": [], "tokens": 8, "cost": 1.2e-06}
+{"timestamp": "2026-07-06T06:38:10.478061+00:00", "session_id": "default_session", "latency": 0.12118196487426758, "agents": ["weather_agent"], "tools": [], "tokens": 16, "cost": 2.4e-06}
+{"timestamp": "2026-07-06T06:38:10.508586+00:00", "session_id": "default_session", "latency": 0.012429475784301758, "agents": ["disease_agent"], "tools": [], "tokens": 18, "cost": 2.6999999999999996e-06}
+{"timestamp": "2026-07-06T06:38:10.524139+00:00", "session_id": "default_session", "latency": 0.015016555786132812, "agents": ["disease_agent", "weather_agent"], "tools": [], "tokens": 24, "cost": 3.6e-06}
+{"timestamp": "2026-07-06T06:38:10.527712+00:00", "session_id": "default_session", "latency": 0.003072977066040039, "agents": [], "tools": [], "tokens": 0, "cost": 0.0}
+{"timestamp": "2026-07-06T06:38:10.531488+00:00", "session_id": "default_session", "latency": 0.003259420394897461, "agents": [], "tools": [], "tokens": 0, "cost": 0.0}
+{"timestamp": "2026-07-06T06:38:10.535073+00:00", "session_id": "default_session", "latency": 0.0031452178955078125, "agents": ["crop_agent"], "tools": [], "tokens": 16, "cost": 2.4e-06}
+{"timestamp": "2026-07-06T06:38:15.328303+00:00", "session_id": "default_session", "latency": 0.09659290313720703, "agents": ["crop_agent"], "tools": [], "tokens": 20, "cost": 2.9999999999999997e-06}
+{"timestamp": "2026-07-06T06:38:15.333251+00:00", "session_id": "default_session", "latency": 0.0027437210083007812, "agents": ["crop_agent"], "tools": [], "tokens": 21, "cost": 3.15e-06}
+{"timestamp": "2026-07-06T06:38:15.339323+00:00", "session_id": "default_session", "latency": 0.0026710033416748047, "agents": ["crop_agent"], "tools": [], "tokens": 12, "cost": 1.8e-06}
+{"timestamp": "2026-07-06T06:38:34.018184+00:00", "session_id": "default_session", "latency": 2.361572265625, "agents": ["crop_agent"], "tools": [], "tokens": 14, "cost": 2.1e-06}
+{"timestamp": "2026-07-06T06:38:54.876435+00:00", "session_id": "default_session", "latency": 1.6666500568389893, "agents": ["weather_agent"], "tools": [], "tokens": 20, "cost": 2.9999999999999997e-06}
+{"timestamp": "2026-07-06T06:38:55.829425+00:00", "session_id": "default_session", "latency": 0.9509403705596924, "agents": ["location_agent"], "tools": [], "tokens": 23, "cost": 3.4499999999999996e-06}
+{"timestamp": "2026-07-06T06:38:56.733339+00:00", "session_id": "default_session", "latency": 0.9019725322723389, "agents": ["disease_agent"], "tools": [], "tokens": 9, "cost": 1.3499999999999998e-06}
+{"timestamp": "2026-07-06T06:38:57.805694+00:00", "session_id": "default_session", "latency": 1.070580244064331, "agents": ["disease_agent", "weather_agent"], "tools": [], "tokens": 23, "cost": 3.4499999999999996e-06}
+{"timestamp": "2026-07-06T06:38:57.811678+00:00", "session_id": "default_session", "latency": 0.00419163703918457, "agents": [], "tools": [], "tokens": 0, "cost": 0.0}
+{"timestamp": "2026-07-06T06:38:57.817792+00:00", "session_id": "default_session", "latency": 0.004612922668457031, "agents": [], "tools": [], "tokens": 0, "cost": 0.0}
+{"timestamp": "2026-07-06T06:38:58.668312+00:00", "session_id": "default_session", "latency": 0.8486654758453369, "agents": ["crop_agent"], "tools": [], "tokens": 8, "cost": 1.2e-06}
+{"timestamp": "2026-07-06T06:46:45.532096+00:00", "session_id": "session_1783318301251", "latency": 15.570836305618286, "agents": ["weather_agent"], "tools": ["weather_mcp"], "tokens": 93, "cost": 1.3949999999999999e-05}
+{"timestamp": "2026-07-06T06:47:57.191649+00:00", "session_id": "session_1783318301251", "latency": 9.831350803375244, "agents": ["disease_agent"], "tools": ["vision"], "tokens": 0, "cost": 0.0}
+{"timestamp": "2026-07-06T10:16:27.463520+00:00", "session_id": "default_session", "latency": 0.13332247734069824, "agents": ["weather_agent"], "tools": [], "tokens": 16, "cost": 2.4e-06}
+{"timestamp": "2026-07-06T10:16:27.537758+00:00", "session_id": "default_session", "latency": 0.020241260528564453, "agents": ["disease_agent"], "tools": [], "tokens": 18, "cost": 2.6999999999999996e-06}
+{"timestamp": "2026-07-06T10:16:27.558882+00:00", "session_id": "default_session", "latency": 0.02053546905517578, "agents": ["disease_agent", "weather_agent"], "tools": [], "tokens": 24, "cost": 3.6e-06}
+{"timestamp": "2026-07-06T10:16:27.563725+00:00", "session_id": "default_session", "latency": 0.004166364669799805, "agents": [], "tools": [], "tokens": 0, "cost": 0.0}
+{"timestamp": "2026-07-06T10:16:27.568575+00:00", "session_id": "default_session", "latency": 0.004073143005371094, "agents": [], "tools": [], "tokens": 0, "cost": 0.0}
+{"timestamp": "2026-07-06T10:16:27.573889+00:00", "session_id": "default_session", "latency": 0.004865884780883789, "agents": ["crop_agent"], "tools": [], "tokens": 16, "cost": 2.4e-06}
+{"timestamp": "2026-07-06T10:16:54.362773+00:00", "session_id": "default_session", "latency": 24.599213123321533, "agents": ["weather_agent"], "tools": [], "tokens": 20, "cost": 2.9999999999999997e-06}
+{"timestamp": "2026-07-06T10:16:56.401467+00:00", "session_id": "default_session", "latency": 2.0370376110076904, "agents": ["location_agent"], "tools": [], "tokens": 23, "cost": 3.4499999999999996e-06}
+{"timestamp": "2026-07-06T10:16:58.440541+00:00", "session_id": "default_session", "latency": 2.0363686084747314, "agents": ["disease_agent"], "tools": [], "tokens": 9, "cost": 1.3499999999999998e-06}
+{"timestamp": "2026-07-06T10:18:06.935298+00:00", "session_id": "default_session", "latency": 68.49265360832214, "agents": ["disease_agent", "weather_agent"], "tools": [], "tokens": 23, "cost": 3.4499999999999996e-06}
+{"timestamp": "2026-07-06T10:18:06.944895+00:00", "session_id": "default_session", "latency": 0.007334470748901367, "agents": [], "tools": [], "tokens": 0, "cost": 0.0}
+{"timestamp": "2026-07-06T10:18:06.954861+00:00", "session_id": "default_session", "latency": 0.006804704666137695, "agents": [], "tools": [], "tokens": 0, "cost": 0.0}
+{"timestamp": "2026-07-06T10:18:06.956658+00:00", "session_id": "default_session", "latency": 0.00020456314086914062, "agents": ["general_agent"], "tools": [], "tokens": 0, "cost": 0.0}
+{"timestamp": "2026-07-06T10:18:09.976437+00:00", "session_id": "default_session", "latency": 0.11240029335021973, "agents": ["weather_agent"], "tools": [], "tokens": 16, "cost": 2.4e-06}
+{"timestamp": "2026-07-06T10:18:10.003424+00:00", "session_id": "default_session", "latency": 0.013450860977172852, "agents": ["disease_agent"], "tools": [], "tokens": 18, "cost": 2.6999999999999996e-06}
+{"timestamp": "2026-07-06T10:18:10.025268+00:00", "session_id": "default_session", "latency": 0.0213623046875, "agents": ["disease_agent", "weather_agent"], "tools": [], "tokens": 24, "cost": 3.6e-06}
+{"timestamp": "2026-07-06T10:18:10.030165+00:00", "session_id": "default_session", "latency": 0.004335880279541016, "agents": [], "tools": [], "tokens": 0, "cost": 0.0}
+{"timestamp": "2026-07-06T10:18:10.035963+00:00", "session_id": "default_session", "latency": 0.0050165653228759766, "agents": [], "tools": [], "tokens": 0, "cost": 0.0}
+{"timestamp": "2026-07-06T10:18:10.041241+00:00", "session_id": "default_session", "latency": 0.004305362701416016, "agents": ["crop_agent"], "tools": [], "tokens": 16, "cost": 2.4e-06}
+{"timestamp": "2026-07-06T10:18:14.532546+00:00", "session_id": "default_session", "latency": 0.11179471015930176, "agents": ["crop_agent"], "tools": [], "tokens": 20, "cost": 2.9999999999999997e-06}
+{"timestamp": "2026-07-06T10:18:14.538455+00:00", "session_id": "default_session", "latency": 0.0035238265991210938, "agents": ["crop_agent"], "tools": [], "tokens": 21, "cost": 3.15e-06}
+{"timestamp": "2026-07-06T10:18:14.593480+00:00", "session_id": "default_session", "latency": 0.0528569221496582, "agents": ["crop_agent"], "tools": [], "tokens": 13, "cost": 1.9499999999999995e-06}
+{"timestamp": "2026-07-06T10:18:28.912084+00:00", "session_id": "default_session", "latency": 0.897550106048584, "agents": ["crop_agent"], "tools": [], "tokens": 14, "cost": 2.1e-06}
+{"timestamp": "2026-07-06T10:19:05.119445+00:00", "session_id": "default_session", "latency": 0.11616921424865723, "agents": ["weather_agent"], "tools": [], "tokens": 16, "cost": 2.4e-06}
+{"timestamp": "2026-07-06T10:19:05.139831+00:00", "session_id": "default_session", "latency": 0.009050369262695312, "agents": ["disease_agent"], "tools": [], "tokens": 18, "cost": 2.6999999999999996e-06}
+{"timestamp": "2026-07-06T10:19:05.154520+00:00", "session_id": "default_session", "latency": 0.014207124710083008, "agents": ["disease_agent", "weather_agent"], "tools": [], "tokens": 24, "cost": 3.6e-06}
+{"timestamp": "2026-07-06T10:19:05.157949+00:00", "session_id": "default_session", "latency": 0.0029344558715820312, "agents": [], "tools": [], "tokens": 0, "cost": 0.0}
+{"timestamp": "2026-07-06T10:19:05.162338+00:00", "session_id": "default_session", "latency": 0.003935337066650391, "agents": [], "tools": [], "tokens": 0, "cost": 0.0}
+{"timestamp": "2026-07-06T10:19:05.166192+00:00", "session_id": "default_session", "latency": 0.0032699108123779297, "agents": ["crop_agent"], "tools": [], "tokens": 16, "cost": 2.4e-06}
+{"timestamp": "2026-07-06T10:19:08.286967+00:00", "session_id": "default_session", "latency": 1.0078086853027344, "agents": ["weather_agent"], "tools": [], "tokens": 20, "cost": 2.9999999999999997e-06}
+{"timestamp": "2026-07-06T10:19:09.237926+00:00", "session_id": "default_session", "latency": 0.9495301246643066, "agents": ["location_agent"], "tools": [], "tokens": 23, "cost": 3.4499999999999996e-06}
+{"timestamp": "2026-07-06T10:19:10.091307+00:00", "session_id": "default_session", "latency": 0.8517777919769287, "agents": ["disease_agent"], "tools": [], "tokens": 9, "cost": 1.3499999999999998e-06}
+{"timestamp": "2026-07-06T10:19:13.940094+00:00", "session_id": "default_session", "latency": 3.8473472595214844, "agents": ["disease_agent", "weather_agent"], "tools": [], "tokens": 23, "cost": 3.4499999999999996e-06}
+{"timestamp": "2026-07-06T10:19:13.944791+00:00", "session_id": "default_session", "latency": 0.0032434463500976562, "agents": [], "tools": [], "tokens": 0, "cost": 0.0}
+{"timestamp": "2026-07-06T10:19:13.948968+00:00", "session_id": "default_session", "latency": 0.002939462661743164, "agents": [], "tools": [], "tokens": 0, "cost": 0.0}
+{"timestamp": "2026-07-06T10:19:13.950151+00:00", "session_id": "default_session", "latency": 0.00013065338134765625, "agents": ["general_agent"], "tools": [], "tokens": 0, "cost": 0.0}
+{"timestamp": "2026-07-06T10:19:15.871008+00:00", "session_id": "default_session", "latency": 0.10851454734802246, "agents": ["weather_agent"], "tools": [], "tokens": 16, "cost": 2.4e-06}
+{"timestamp": "2026-07-06T10:19:15.894384+00:00", "session_id": "default_session", "latency": 0.012225627899169922, "agents": ["disease_agent"], "tools": [], "tokens": 18, "cost": 2.6999999999999996e-06}
+{"timestamp": "2026-07-06T10:19:15.909741+00:00", "session_id": "default_session", "latency": 0.014900684356689453, "agents": ["disease_agent", "weather_agent"], "tools": [], "tokens": 24, "cost": 3.6e-06}
+{"timestamp": "2026-07-06T10:19:15.913684+00:00", "session_id": "default_session", "latency": 0.0034666061401367188, "agents": [], "tools": [], "tokens": 0, "cost": 0.0}
+{"timestamp": "2026-07-06T10:19:15.917937+00:00", "session_id": "default_session", "latency": 0.003773927688598633, "agents": [], "tools": [], "tokens": 0, "cost": 0.0}
+{"timestamp": "2026-07-06T10:19:15.921443+00:00", "session_id": "default_session", "latency": 0.0030336380004882812, "agents": ["crop_agent"], "tools": [], "tokens": 16, "cost": 2.4e-06}
+{"timestamp": "2026-07-06T10:19:19.074787+00:00", "session_id": "default_session", "latency": 0.08933401107788086, "agents": ["crop_agent"], "tools": [], "tokens": 20, "cost": 2.9999999999999997e-06}
+{"timestamp": "2026-07-06T10:19:19.079689+00:00", "session_id": "default_session", "latency": 0.002657651901245117, "agents": ["crop_agent"], "tools": [], "tokens": 21, "cost": 3.15e-06}
+{"timestamp": "2026-07-06T10:19:19.137316+00:00", "session_id": "default_session", "latency": 0.05575156211853027, "agents": ["crop_agent"], "tools": [], "tokens": 13, "cost": 1.9499999999999995e-06}
+{"timestamp": "2026-07-06T10:19:34.460944+00:00", "session_id": "default_session", "latency": 1.644282341003418, "agents": ["crop_agent"], "tools": [], "tokens": 14, "cost": 2.1e-06}
+{"timestamp": "2026-07-06T10:31:49.827956+00:00", "session_id": "default_session", "latency": 0.21341681480407715, "agents": ["weather_agent"], "tools": [], "tokens": 16, "cost": 2.4e-06}
+{"timestamp": "2026-07-06T10:31:49.862822+00:00", "session_id": "default_session", "latency": 0.014301300048828125, "agents": ["disease_agent"], "tools": [], "tokens": 18, "cost": 2.6999999999999996e-06}
+{"timestamp": "2026-07-06T10:31:49.887235+00:00", "session_id": "default_session", "latency": 0.02359628677368164, "agents": ["disease_agent", "weather_agent"], "tools": [], "tokens": 24, "cost": 3.6e-06}
+{"timestamp": "2026-07-06T10:31:49.895613+00:00", "session_id": "default_session", "latency": 0.00733637809753418, "agents": [], "tools": [], "tokens": 0, "cost": 0.0}
+{"timestamp": "2026-07-06T10:31:49.904775+00:00", "session_id": "default_session", "latency": 0.007997274398803711, "agents": [], "tools": [], "tokens": 0, "cost": 0.0}
+{"timestamp": "2026-07-06T10:31:49.912878+00:00", "session_id": "default_session", "latency": 0.0071032047271728516, "agents": ["crop_agent"], "tools": [], "tokens": 16, "cost": 2.4e-06}
+{"timestamp": "2026-07-06T10:31:54.238134+00:00", "session_id": "default_session", "latency": 1.4028923511505127, "agents": ["weather_agent"], "tools": [], "tokens": 20, "cost": 2.9999999999999997e-06}
+{"timestamp": "2026-07-06T10:31:55.495296+00:00", "session_id": "default_session", "latency": 1.2551560401916504, "agents": ["location_agent"], "tools": [], "tokens": 23, "cost": 3.4499999999999996e-06}
+{"timestamp": "2026-07-06T10:31:56.771001+00:00", "session_id": "default_session", "latency": 1.2731025218963623, "agents": ["disease_agent"], "tools": [], "tokens": 9, "cost": 1.3499999999999998e-06}
+{"timestamp": "2026-07-06T10:31:58.012456+00:00", "session_id": "default_session", "latency": 1.2394742965698242, "agents": ["disease_agent", "weather_agent"], "tools": [], "tokens": 23, "cost": 3.4499999999999996e-06}
+{"timestamp": "2026-07-06T10:31:58.021925+00:00", "session_id": "default_session", "latency": 0.006247043609619141, "agents": [], "tools": [], "tokens": 0, "cost": 0.0}
+{"timestamp": "2026-07-06T10:31:58.030174+00:00", "session_id": "default_session", "latency": 0.006123065948486328, "agents": [], "tools": [], "tokens": 0, "cost": 0.0}
+{"timestamp": "2026-07-06T10:31:58.033006+00:00", "session_id": "default_session", "latency": 0.0003502368927001953, "agents": ["general_agent"], "tools": [], "tokens": 0, "cost": 0.0}
+{"timestamp": "2026-07-06T10:32:00.620628+00:00", "session_id": "default_session", "latency": 0.11579155921936035, "agents": ["weather_agent"], "tools": [], "tokens": 16, "cost": 2.4e-06}
+{"timestamp": "2026-07-06T10:32:00.647537+00:00", "session_id": "default_session", "latency": 0.013640880584716797, "agents": ["disease_agent"], "tools": [], "tokens": 18, "cost": 2.6999999999999996e-06}
+{"timestamp": "2026-07-06T10:32:00.677750+00:00", "session_id": "default_session", "latency": 0.029711008071899414, "agents": ["disease_agent", "weather_agent"], "tools": [], "tokens": 24, "cost": 3.6e-06}
+{"timestamp": "2026-07-06T10:32:00.688601+00:00", "session_id": "default_session", "latency": 0.009867191314697266, "agents": [], "tools": [], "tokens": 0, "cost": 0.0}
+{"timestamp": "2026-07-06T10:32:00.694042+00:00", "session_id": "default_session", "latency": 0.0037581920623779297, "agents": [], "tools": [], "tokens": 0, "cost": 0.0}
+{"timestamp": "2026-07-06T10:32:00.698823+00:00", "session_id": "default_session", "latency": 0.004296779632568359, "agents": ["crop_agent"], "tools": [], "tokens": 16, "cost": 2.4e-06}
+{"timestamp": "2026-07-06T10:32:07.079819+00:00", "session_id": "default_session", "latency": 0.0959010124206543, "agents": ["crop_agent"], "tools": [], "tokens": 20, "cost": 2.9999999999999997e-06}
+{"timestamp": "2026-07-06T10:32:07.084383+00:00", "session_id": "default_session", "latency": 0.0025272369384765625, "agents": ["crop_agent"], "tools": [], "tokens": 21, "cost": 3.15e-06}
+{"timestamp": "2026-07-06T10:32:07.138489+00:00", "session_id": "default_session", "latency": 0.052184104919433594, "agents": ["crop_agent"], "tools": [], "tokens": 13, "cost": 1.9499999999999995e-06}
+{"timestamp": "2026-07-06T10:32:19.003733+00:00", "session_id": "default_session", "latency": 0.996812105178833, "agents": ["crop_agent"], "tools": [], "tokens": 14, "cost": 2.1e-06}
+{"timestamp": "2026-07-06T10:34:18.895154+00:00", "session_id": "session_1783318301251", "latency": 12.275817155838013, "agents": ["disease_agent"], "tools": ["vision"], "tokens": 0, "cost": 0.0}
+{"timestamp": "2026-07-06T10:35:03.656275+00:00", "session_id": "default_session", "latency": 0.12184667587280273, "agents": ["weather_agent"], "tools": [], "tokens": 16, "cost": 2.4e-06}
+{"timestamp": "2026-07-06T10:35:03.678346+00:00", "session_id": "default_session", "latency": 0.009158611297607422, "agents": ["disease_agent"], "tools": [], "tokens": 18, "cost": 2.6999999999999996e-06}
+{"timestamp": "2026-07-06T10:35:03.694450+00:00", "session_id": "default_session", "latency": 0.015428781509399414, "agents": ["disease_agent", "weather_agent"], "tools": [], "tokens": 24, "cost": 3.6e-06}
+{"timestamp": "2026-07-06T10:35:03.697847+00:00", "session_id": "default_session", "latency": 0.002930879592895508, "agents": [], "tools": [], "tokens": 0, "cost": 0.0}
+{"timestamp": "2026-07-06T10:35:03.702166+00:00", "session_id": "default_session", "latency": 0.0038576126098632812, "agents": [], "tools": [], "tokens": 0, "cost": 0.0}
+{"timestamp": "2026-07-06T10:35:03.705593+00:00", "session_id": "default_session", "latency": 0.0029976367950439453, "agents": ["crop_agent"], "tools": [], "tokens": 16, "cost": 2.4e-06}
+{"timestamp": "2026-07-06T10:35:06.819865+00:00", "session_id": "default_session", "latency": 1.0456151962280273, "agents": ["weather_agent"], "tools": [], "tokens": 20, "cost": 2.9999999999999997e-06}
+{"timestamp": "2026-07-06T10:35:07.698398+00:00", "session_id": "default_session", "latency": 0.8769829273223877, "agents": ["location_agent"], "tools": [], "tokens": 23, "cost": 3.4499999999999996e-06}
+{"timestamp": "2026-07-06T10:35:08.507357+00:00", "session_id": "default_session", "latency": 0.8070812225341797, "agents": ["disease_agent"], "tools": [], "tokens": 9, "cost": 1.3499999999999998e-06}
+{"timestamp": "2026-07-06T10:35:09.583945+00:00", "session_id": "default_session", "latency": 1.074998140335083, "agents": ["disease_agent", "weather_agent"], "tools": [], "tokens": 23, "cost": 3.4499999999999996e-06}
+{"timestamp": "2026-07-06T10:35:09.589812+00:00", "session_id": "default_session", "latency": 0.004091739654541016, "agents": [], "tools": [], "tokens": 0, "cost": 0.0}
+{"timestamp": "2026-07-06T10:35:09.594762+00:00", "session_id": "default_session", "latency": 0.003367185592651367, "agents": [], "tools": [], "tokens": 0, "cost": 0.0}
+{"timestamp": "2026-07-06T10:35:09.596718+00:00", "session_id": "default_session", "latency": 0.00020360946655273438, "agents": ["general_agent"], "tools": [], "tokens": 0, "cost": 0.0}
+{"timestamp": "2026-07-06T10:35:11.783900+00:00", "session_id": "default_session", "latency": 0.1136026382446289, "agents": ["weather_agent"], "tools": [], "tokens": 16, "cost": 2.4e-06}
+{"timestamp": "2026-07-06T10:35:11.807205+00:00", "session_id": "default_session", "latency": 0.012105941772460938, "agents": ["disease_agent"], "tools": [], "tokens": 18, "cost": 2.6999999999999996e-06}
+{"timestamp": "2026-07-06T10:35:11.822738+00:00", "session_id": "default_session", "latency": 0.015066862106323242, "agents": ["disease_agent", "weather_agent"], "tools": [], "tokens": 24, "cost": 3.6e-06}
+{"timestamp": "2026-07-06T10:35:11.826940+00:00", "session_id": "default_session", "latency": 0.0036318302154541016, "agents": [], "tools": [], "tokens": 0, "cost": 0.0}
+{"timestamp": "2026-07-06T10:35:11.830564+00:00", "session_id": "default_session", "latency": 0.003108978271484375, "agents": [], "tools": [], "tokens": 0, "cost": 0.0}
+{"timestamp": "2026-07-06T10:35:11.834420+00:00", "session_id": "default_session", "latency": 0.0033788681030273438, "agents": ["crop_agent"], "tools": [], "tokens": 16, "cost": 2.4e-06}
+{"timestamp": "2026-07-06T10:35:16.073500+00:00", "session_id": "default_session", "latency": 0.09584927558898926, "agents": ["crop_agent"], "tools": [], "tokens": 20, "cost": 2.9999999999999997e-06}
+{"timestamp": "2026-07-06T10:35:16.078814+00:00", "session_id": "default_session", "latency": 0.002907991409301758, "agents": ["crop_agent"], "tools": [], "tokens": 21, "cost": 3.15e-06}
+{"timestamp": "2026-07-06T10:35:16.135570+00:00", "session_id": "default_session", "latency": 0.05457615852355957, "agents": ["crop_agent"], "tools": [], "tokens": 13, "cost": 1.9499999999999995e-06}
+{"timestamp": "2026-07-06T10:35:30.203161+00:00", "session_id": "default_session", "latency": 0.9146132469177246, "agents": ["crop_agent"], "tools": [], "tokens": 14, "cost": 2.1e-06}
+{"timestamp": "2026-07-06T10:39:20.111076+00:00", "session_id": "session_1783334247673", "latency": 30.05789875984192, "agents": ["disease_agent"], "tools": ["vision"], "tokens": 376, "cost": 5.6399999999999995e-05}
+{"timestamp": "2026-07-06T10:44:13.606401+00:00", "session_id": "session_1783334247673", "latency": 50.93338131904602, "agents": ["location_agent", "crop_agent"], "tools": ["location_mcp", "crop_db_mcp"], "tokens": 350, "cost": 5.2499999999999995e-05}
+{"timestamp": "2026-07-06T10:46:05.886343+00:00", "session_id": "session_1783334247673", "latency": 28.791268587112427, "agents": ["crop_agent"], "tools": ["crop_database"], "tokens": 289, "cost": 4.334999999999999e-05}
+{"timestamp": "2026-07-06T10:48:27.763880+00:00", "session_id": "session_1783334779672", "latency": 118.84781861305237, "agents": ["location_agent", "crop_agent"], "tools": ["location_mcp", "crop_db_mcp"], "tokens": 443, "cost": 6.644999999999999e-05}
+{"timestamp": "2026-07-06T10:49:15.743651+00:00", "session_id": "session_1783334863084", "latency": 25.413317680358887, "agents": ["crop_agent"], "tools": ["crop_db_mcp"], "tokens": 387, "cost": 5.8049999999999995e-05}
+{"timestamp": "2026-07-06T11:07:17.720361+00:00", "session_id": "session_1783317842455", "latency": 9.022706270217896, "agents": [], "tools": [], "tokens": 253, "cost": 3.7949999999999994e-05}
+{"timestamp": "2026-07-06T14:25:41.764012+00:00", "session_id": "default_session", "latency": 0.22335195541381836, "agents": ["weather_agent"], "tools": [], "tokens": 16, "cost": 2.4e-06}
+{"timestamp": "2026-07-06T14:25:41.823812+00:00", "session_id": "default_session", "latency": 0.031249284744262695, "agents": ["disease_agent"], "tools": [], "tokens": 18, "cost": 2.6999999999999996e-06}
+{"timestamp": "2026-07-06T14:25:41.852131+00:00", "session_id": "default_session", "latency": 0.027289628982543945, "agents": ["disease_agent", "weather_agent"], "tools": [], "tokens": 24, "cost": 3.6e-06}
+{"timestamp": "2026-07-06T14:25:41.859579+00:00", "session_id": "default_session", "latency": 0.0060634613037109375, "agents": [], "tools": [], "tokens": 0, "cost": 0.0}
+{"timestamp": "2026-07-06T14:25:41.867250+00:00", "session_id": "default_session", "latency": 0.006621599197387695, "agents": [], "tools": [], "tokens": 0, "cost": 0.0}
+{"timestamp": "2026-07-06T14:25:41.875381+00:00", "session_id": "default_session", "latency": 0.006998300552368164, "agents": ["crop_agent"], "tools": [], "tokens": 16, "cost": 2.4e-06}
+{"timestamp": "2026-07-06T16:16:48.216586+00:00", "session_id": "test_session_123", "latency": 0.057494401931762695, "agents": ["general_agent"], "tools": [], "tokens": 0, "cost": 0.0}
+{"timestamp": "2026-07-06T17:36:06.607248+00:00", "session_id": "test_session_123", "latency": 0.05871462821960449, "agents": ["general_agent"], "tools": [], "tokens": 0, "cost": 0.0}
+{"timestamp": "2026-07-06T17:40:20.587200+00:00", "session_id": "test_session_123", "latency": 0.07127571105957031, "agents": ["general_agent"], "tools": [], "tokens": 0, "cost": 0.0}

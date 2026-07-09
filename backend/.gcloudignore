@@ -1,0 +1,27 @@
+# .gcloudignore for backend service context upload
+
+# Local Git configuration
+.git/
+.gitignore
+
+# Virtual environment details
+venv/
+.venv/
+env/
+
+# Cache directories
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# Databases and user uploads
+data/
+*.db
+*.sqlite
+uploads/
+*.log
+
+# Root-level ignore files
+.gcloudignore
+.cloudignore
