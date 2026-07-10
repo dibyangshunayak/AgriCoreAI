@@ -6,40 +6,36 @@
   <br>
   <h1>🌾 AgriCore AI</h1>
   <p><strong>Enterprise Multi-Agent AI Platform for Smart Agriculture</strong></p>
-  <p>An enterprise-grade, intelligence-driven decision-support platform orchestrating collaborative LLM agents and Model Context Protocol (MCP) servers to deliver real-time agronomic advisories, vision-based plant pathology, and meteorological intelligence to farmers globally.</p>
 </div>
 
 <div align="center">
 
 [![Python](https://img.shields.io/badge/Python-3.11+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
-[![FastAPI](https://img.shields.io/badge/FastAPI-0.100+-009688?style=for-the-badge&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
 [![React](https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev/)
-[![Google Gemini](https://img.shields.io/badge/Google_Gemini-2.5_Flash-4285F4?style=for-the-badge&logo=google&logoColor=white)](https://deepmind.google/technologies/gemini/)
-[![MCP](https://img.shields.io/badge/Model_Context_Protocol-MCP-green?style=for-the-badge&logo=open-source-initiative&logoColor=white)](https://modelcontextprotocol.io/)
+[![Flask](https://img.shields.io/badge/Flask-3.0+-000000?style=for-the-badge&logo=flask&logoColor=white)](https://flask.palletsprojects.com/)
 [![Docker](https://img.shields.io/badge/Docker-Containerized-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://www.docker.com/)
-[![Google Cloud Run](https://img.shields.io/badge/Google_Cloud_Run-Serverless-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)](https://cloud.google.com/run)
+[![Google Gemini](https://img.shields.io/badge/Google_Gemini-2.5_Flash-4285F4?style=for-the-badge&logo=google&logoColor=white)](https://deepmind.google/technologies/gemini/)
+[![NVIDIA AI](https://img.shields.io/badge/NVIDIA%20AI-Nemotron-76B900?style=for-the-badge&logo=nvidia&logoColor=white)](https://build.nvidia.com/)
+[![MCP](https://img.shields.io/badge/Model_Context_Protocol-MCP-green?style=for-the-badge&logo=open-source-initiative&logoColor=white)](https://modelcontextprotocol.io/)
+[![Google Cloud](https://img.shields.io/badge/Google_Cloud-Platform-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)](https://cloud.google.com/)
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg?style=for-the-badge)](LICENSE)
-[![GitHub Stars](https://img.shields.io/github/stars/username/repo?style=for-the-badge&label=%E2%98%85%20Stars&color=yellow)](https://github.com/username/repo/stargazers)
-[![GitHub Forks](https://img.shields.io/github/forks/username/repo?style=for-the-badge&label=%E2%94%85%20Forks&color=lightgrey)](https://github.com/username/repo/network/members)
-[![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-CI/CD-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)](https://github.com/features/actions)
+[![GitHub Stars](https://img.shields.io/github/stars/dibyangshunayak/AgriCoreAI?style=for-the-badge&label=%E2%98%85%20Stars&color=yellow)](https://github.com/dibyangshunayak/AgriCoreAI/stargazers)
 
 </div>
 
 ---
 
+AgriCore AI is an **Enterprise Multi-Agent AI Platform** developed as a **Google AI Agents Capstone Project**. Designed as a high-fidelity **Agriculture Decision Support System**, it is built with **Flask + React + Gemini + NVIDIA + MCP** to deliver real-time agronomic advisories, vision-based plant pathology, and meteorological intelligence to farmers globally.
+
+---
+
 ## 🔗 Quick Links
 
-<div align="center">
-  <table>
-    <tr>
-      <td align="center"><strong>🌐 Live Demo</strong><br><a href="https://agri-core-ai-five.vercel.app">agricore.ai</a></td>
-      <td align="center"><strong>📖 Documentation</strong><br><a href="https://gitbook.io">Read Guide</a></td>
-      <td align="center"><strong>🎥 Demo Video</strong><br><a href="https://youtu.be/-qPUkMyqRGU?si=NQXBOi3-W-GTxtfp">Watch Walkthrough</a></td>
-      <td align="center"><strong>📂 Repository</strong><br><a href="https://github.com/dibyangshunayak/AgriCoreAI">Source Code</a></td>
-      <td align="center"><strong>🏆 Kaggle Writeup</strong><br><a href="https://kaggle.com/competitions/vibecoding-agents-capstone-project/writeups/new-writeup-1781964400671">Read Submission</a></td>
-    </tr>
-  </table>
-</div>
+* 🌐 **Live Demo**: [agricore.ai](https://agri-core-ai-five.vercel.app)
+* 🎥 **Demo Video**: [Watch Walkthrough](https://youtu.be/-qPUkMyqRGU?si=NQXBOi3-W-GTxtfp)
+* 🏆 **Kaggle Writeup**: [Read Submission](https://kaggle.com/competitions/vibecoding-agents-capstone-project/writeups/new-writeup-1781964400671)
+* 📂 **GitHub Repository**: [Source Code](https://github.com/dibyangshunayak/AgriCoreAI)
+* 📖 **Documentation**: [Read Guide](https://github.com/dibyangshunayak/AgriCoreAI)
 
 ---
 
@@ -47,11 +43,11 @@
 
 Modern agriculture faces pressures from environmental volatility, resource depletion, and systemic inefficiencies. To ensure food security and sustain livelihoods, agricultural stakeholders require access to high-fidelity, real-time, and localized guidance. However, current technological and structural solutions present severe limitations:
 
-* **Fragmented Agricultural Advisory Systems:** Actionable knowledge is scattered across textbook manuals, static regional extension bulletins, and disconnected databases. Farmers cannot easily synthesize these resources to answer complex, multi-layered agronomic queries.
-* **Pathological Devastation:** Crop foliage pathogens (such as late blight or rust) devastate yields rapidly. Globally, plant diseases cost the agricultural economy over **$220 billion annually**, with smallholder yield losses frequently reaching **40%**. Access to certified crop pathologists is slow, costly, and geographically limited.
-* **Unsynthesized Telemetry:** While weather and soil sensors are widely available, raw meteorological outputs (like relative humidity, wind velocity, or soil moisture values) are not translated into immediate operational directives, such as irrigation volumes or optimal sowing dates.
-* **Language and Accessibility Barriers:** A significant majority of agricultural operators in developing markets speak regional languages or dialects. Most advanced software suites are English-only, creating usability barriers.
-* **Failure of Traditional Chatbots:** Monolithic LLM configurations and standard RAG chatbots struggle with complex execution chains. They lack formal task planning, context-aware memory persistence, secure validation pipelines, and standard integrations with real-world databases and APIs.
+* **Fragmented Agricultural Advisory Systems**: Actionable knowledge is scattered across textbook manuals, static regional extension bulletins, and disconnected databases. Farmers cannot easily synthesize these resources to answer complex, multi-layered agronomic queries.
+* **Pathological Devastation**: Crop foliage pathogens (such as late blight or rust) devastate yields rapidly. Globally, plant diseases cost the agricultural economy over **$220 billion annually**, with smallholder yield losses frequently reaching **40%**. Access to certified crop pathologists is slow, costly, and geographically limited.
+* **Unsynthesized Telemetry**: While weather and soil sensors are widely available, raw meteorological outputs (like relative humidity, wind velocity, or soil moisture values) are not translated into immediate operational directives, such as irrigation volumes or optimal sowing dates.
+* **Language and Accessibility Barriers**: A significant majority of agricultural operators in developing markets speak regional languages or dialects. Most advanced software suites are English-only, creating usability barriers.
+* **Failure of Traditional Chatbots**: Monolithic LLM configurations and standard RAG chatbots struggle with complex execution chains. They lack formal task planning, context-aware memory persistence, secure validation pipelines, and standard integrations with real-world databases and APIs.
 
 ---
 
@@ -59,12 +55,12 @@ Modern agriculture faces pressures from environmental volatility, resource deple
 
 AgriCore AI solves agricultural fragmentation by introducing a collaborative multi-agent platform designed for robust decision support. The system abstracts complex data-retrieval APIs and analytical logic into a modular, production-ready environment:
 
-* **Unified Intelligent Workspace:** Instead of navigating multiple standalone applications, operators interact with a single portal that integrates chat, map telemetry, weather forecasts, and file drops.
-* **Collaborative Multi-Agent Orchestration:** AgriCore AI partitions user queries into structured Directed Acyclic Graphs (DAGs) executed by specialized sub-agents. A central Coordinator Agent manages execution states, runs security filters, and aggregates diagnostic payloads.
-* **Real-time Diagnostic Vision AI:** Integrates Gemini 2.5 Flash to analyze plant foliage images. The vision engine detects diseases, isolates crop hosts, runs quality filters to reject blurry or irrelevant uploads, and compiles preventive treatment workflows.
-* **Dynamic Meteorological Translation:** Rather than simply listing temperatures, specialized weather agents synthesize physical telemetry (soil moisture, precipitation probability) directly into irrigation rules.
-* **Model Context Protocol (MCP) Standard:** Deconstructs database queries, location lookups, and web queries into standard MCP servers, allowing LLM cores to securely fetch real-time facts via stdio JSON-RPC.
-* **Persistent Farm Context Memory:** Maintains thread-safe SQLite session profiles covering user dialect preferences, historical crop selections, geolocations, and past disease reports to provide personalized advisories.
+* **Unified Intelligent Workspace**: Instead of navigating multiple standalone applications, operators interact with a single portal that integrates chat, map telemetry, weather forecasts, and file drops.
+* **Collaborative Multi-Agent Orchestration**: AgriCore AI partitions user queries into structured Directed Acyclic Graphs (DAGs) executed by specialized sub-agents. A central Coordinator Agent manages execution states, runs security filters, and aggregates diagnostic payloads.
+* **Real-time Diagnostic Vision AI**: Integrates Gemini 2.5 Flash to analyze plant foliage images. The vision engine detects diseases, isolates crop hosts, runs quality filters to reject blurry or irrelevant uploads, and compiles preventive treatment workflows.
+* **Dynamic Meteorological Translation**: Rather than simply listing temperatures, specialized weather agents synthesize physical telemetry (soil moisture, precipitation probability) directly into irrigation rules.
+* **Model Context Protocol (MCP) Standard**: Deconstructs database queries, location lookups, and web queries into standard MCP servers, allowing LLM cores to securely fetch real-time facts via stdio JSON-RPC.
+* **Persistent Farm Context Memory**: Maintains thread-safe SQLite session profiles covering user dialect preferences, historical crop selections, geolocations, and past disease reports to provide personalized advisories.
 
 ---
 
@@ -133,6 +129,28 @@ AgriCore AI solves agricultural fragmentation by introducing a collaborative mul
 
 ---
 
+## 🚀 Upcoming Features
+
+We are actively planning and developing the following capabilities to expand AgriCore AI:
+
+* [ ] **Smart Weather Notifications**: Automated alerts based on localized weather transitions and warnings.
+* [ ] **Scheduled AI Farming Alerts**: Periodic crop-specific check-ins, tasks, and advisories.
+* [ ] **Irrigation Scheduler**: Tailored water budgeting tools incorporating local soil attributes.
+* [ ] **Multiple Farm Management**: Support for farmers monitoring fragmented plots across locations.
+* [ ] **Push Notifications**: Real-time browser notifications for immediate agricultural anomalies.
+* [ ] **WhatsApp Alerts**: Direct advisory integration for offline or low-connectivity zones.
+* [ ] **Email Notifications**: Weekly yield reports, weather forecasts, and farm analytics digests.
+* [ ] **Voice Assistant**: Natural voice interaction support optimized for accessibility.
+* [ ] **Mobile App**: Dedicated Android and iOS companion apps.
+* [ ] **Satellite Imagery**: NDVI crop health tracking integrated from Google Earth Engine.
+* [ ] **Drone Monitoring**: High-resolution drone thermal telemetry upload and scanning.
+* [ ] **IoT Sensors**: Ground moisture, temperature, and soil NPK sensor ingestion.
+* [ ] **Yield Prediction**: Analytical models estimating final harvest volume.
+* [ ] **Market Price Prediction**: Price tracking and optimal sell-date forecasting.
+* [ ] **Offline Mode**: Running localized edge models without an active internet connection.
+
+---
+
 ## 🏃 Live Demo Walkthrough
 
 The following walkthrough illustrates the system's operational flow during a standard user journey:
@@ -192,9 +210,23 @@ Traditional AI applications use single-prompt pipelines or standard RAG configur
 
 ---
 
-## 📐 Architecture
+## 📐 System Architecture
 
-### 1. High-Level System Architecture
+### 🗺️ Operational Flow Diagram
+
+```mermaid
+graph TD
+    Farmer([Farmer])
+    --> React[React Frontend]
+    --> Flask[Flask Backend]
+    --> Coordinator[Coordinator Agent]
+    --> Planner[Planner]
+    --> Specialized[Specialized Agents]
+    --> MCP[MCP Servers]
+    --> Models[Gemini / NVIDIA AI]
+```
+
+### 📍 1. High-Level Multi-Agent System Architecture
 
 The following diagram illustrates the unidirectional data flow, showing how the Coordinator Agent acts as the central hub, routing user requests to database layers, specialized agents, and MCP servers:
 
@@ -229,7 +261,7 @@ graph TD
     end
 ```
 
-### 2. Agent Communication Flow
+### 🔄 2. End-to-End Agent Collaboration & Communication Sequence
 
 This sequence diagram displays the lifecycle of a complex user query containing coordinates, a leaf pathology image, and a localized language preference:
 
@@ -277,7 +309,7 @@ sequenceDiagram
     UI->>Farmer: Display localized farming solution
 ```
 
-### 3. Planner Flow
+### 📐 3. Planner DAG Generation & Classification Flow
 
 This flowchart illustrates how the Planner Agent decomposes requests into structured task DAGs:
 
@@ -301,7 +333,7 @@ graph TD
     RunPathology --> Synthesize[Synthesize Advisories]:::execute
 ```
 
-### 4. Memory Flow
+### 💾 4. Persistent Context & SQLite WAL Memory Architecture
 
 This diagram illustrates how the session state database interacts with active execution runtimes to inject context:
 
@@ -329,7 +361,7 @@ graph LR
     SQLite --- PATH
 ```
 
-### 5. Deployment Flow
+### ☁️ 5. Continuous Integration & Serverless Cloud Deployment Pipeline
 
 This diagram details the serverless architecture, CI/CD pipeline, and hosting model inside Google Cloud Platform:
 
@@ -404,17 +436,17 @@ AgriCore AI leverages the Model Context Protocol (MCP) to separate core LLM reas
 
 The platform utilizes five specialized MCP servers:
 
-* **Weather MCP Server (app.mcp.weather_mcp):** Integrates with the Open-Meteo REST API. Exposes the `get_weather` tool, returning temperature, relative humidity, wind velocity, precipitation, soil temperature, and soil moisture telemetry.
-* **Crop DB MCP Server (app.mcp.crop_db_mcp):** Establishes database connections with SQLite crop tables. Returns watering guidelines, growth ranges, and optimal soil pH values.
-* **Government Scheme MCP Server (app.mcp.gov_scheme_mcp):** Pulls localized agricultural policy documents. Integrates with vector index search engines to return local subsidy configurations.
-* **Search MCP Server (app.mcp.search_mcp):** A web fallback tool that queries external search providers for agricultural updates, weather anomalies, or new market pricing data.
-* **Maps MCP Server (app.mcp.location_mcp):** Integrates with Nominatim OpenStreetMap services. Exposes the `reverse_geocode` tool to translate raw latitude/longitude inputs into human-readable municipal addresses.
+* **Weather MCP Server (`app.mcp.weather_mcp`)**: Integrates with the Open-Meteo REST API. Exposes the `get_weather` tool, returning temperature, relative humidity, wind velocity, precipitation, soil temperature, and soil moisture telemetry.
+* **Crop DB MCP Server (`app.mcp.crop_db_mcp`)**: Establishes database connections with SQLite crop tables. Returns watering guidelines, growth ranges, and optimal soil pH values.
+* **Government Scheme MCP Server (`app.mcp.gov_scheme_mcp`)**: Pulls localized agricultural policy documents. Integrates with vector index search engines to return local subsidy configurations.
+* **Search MCP Server (`app.mcp.search_mcp`)**: A web fallback tool that queries external search providers for agricultural updates, weather anomalies, or new market pricing data.
+* **Maps MCP Server (`app.mcp.location_mcp`)**: Integrates with Nominatim OpenStreetMap services. Exposes the `reverse_geocode` tool to translate raw latitude/longitude inputs into human-readable municipal addresses.
 
 ### Why MCP Matters for Enterprise AI
 
-1. **Decoupled Logic:** Changes to external APIs (e.g., switching weather APIs) do not require retraining or adjusting core agent prompts. Only the MCP tool implementation needs updates.
-2. **Standardized Protocols:** Uses standard JSON-RPC 2.0 schemas over standard I/O streams, simplifying security audits and tool integration.
-3. **Execution Safety:** The core agent cannot access the host machine's command line or filesystem; it can only invoke isolated tools exposed by the MCP server.
+1. **Decoupled Logic**: Changes to external APIs (e.g., switching weather APIs) do not require retraining or adjusting core agent prompts. Only the MCP tool implementation needs updates.
+2. **Standardized Protocols**: Uses standard JSON-RPC 2.0 schemas over standard I/O streams, simplifying security audits and tool integration.
+3. **Execution Safety**: The core agent cannot access the host machine's command line or filesystem; it can only invoke isolated tools exposed by the MCP server.
 
 ---
 
@@ -422,9 +454,9 @@ The platform utilizes five specialized MCP servers:
 
 The Planner Agent (`app.services.planner`) decomposes complex farmer requests into executable DAG plans. It operates in two modes:
 
-1. **Deterministic Classifier Fallback:**
+1. **Deterministic Classifier Fallback**:
    To guarantee reliability for common request profiles (like direct weather requests or disease diagnosis), the planner runs a regex-based intent matcher. This resolves queries instantly with 100% classification accuracy, avoiding extra model costs.
-2. **Generative LLM Reasoning:**
+2. **Generative LLM Reasoning**:
    For complex, multi-layered queries, the planner prompts the model using structured execution planning. It instructs the LLM to think step-by-step, identify dependencies, select the correct tool registry keys, and return a JSON-formatted DAG.
 
 ### The DAG Execution Schema
@@ -461,83 +493,26 @@ AgriCore AI implements a thread-safe, multi-layered memory architecture built on
 
 ### Context Ingestion Layers
 
-* **Conversation Memory:** Stores chat messages on thread-specific keys. The system injects recent dialogue turns into the context window to maintain conversational continuity.
-* **Farm Profile:** Persists farm details, such as preferred crops, soil types, and farm sizes, so the agent can provide personalized agricultural advice.
-* **Weather History:** Logs weather reports retrieved by the Weather MCP server to track seasonal shifts and past soil moisture levels.
-* **Disease History:** Keeps records of past leaf pathology scans, helping the system track reoccurring infections or locate outbreaks.
-* **Language & Preferences:** Stores localization parameters to ensure the platform communicates in the user's preferred language and dialect.
+* **Conversation Memory**: Stores chat messages on thread-specific keys. The system injects recent dialogue turns into the context window to maintain conversational continuity.
+* **Farm Profile**: Persists farm details, such as preferred crops, soil types, and farm sizes, so the agent can provide personalized agricultural advice.
+* **Weather History**: Logs weather reports retrieved by the Weather MCP server to track seasonal shifts and past soil moisture levels.
+* **Disease History**: Keeps records of past leaf pathology scans, helping the system track reoccurring infections or locate outbreaks.
+* **Language & Preferences**: Stores localization parameters to ensure the platform communicates in the user's preferred language and dialect.
 
 ---
 
 ## 🛠️ Technology Stack
 
-<div align="center">
-  <table width="100%">
-    <tr>
-      <td width="25%" valign="top">
-        <strong>Frontend</strong><br>
-        • React 19 SPA<br>
-        • Vite Dev Server<br>
-        • Tailwind CSS v4<br>
-        • Lucide React Icons<br>
-        • Framer Motion UI Animations<br>
-        • i18next Framework
-      </td>
-      <td width="25%" valign="top">
-        <strong>Backend</strong><br>
-        • Python 3.11+ Runtime<br>
-        • Flask Web Server (WSGI)<br>
-        • Gunicorn Multi-thread<br>
-        • Eventlet Engine<br>
-        • Model Context Protocol client
-      </td>
-      <td width="25%" valign="top">
-        <strong>AI Models</strong><br>
-        • Google Gemini 2.5 Flash<br>
-        • NVIDIA Nemotron 3 Nano<br>
-        • Google ADK SDK<br>
-        • Multimodal Vision AI<br>
-        • Intent router engines
-      </td>
-      <td width="25%" valign="top">
-        <strong>Database & RAG</strong><br>
-        • SQLite WAL Database<br>
-        • SQLAlchemy ORM<br>
-        • ChromaDB Vector Store<br>
-        • Semantic Search Indices
-      </td>
-    </tr>
-    <tr>
-      <td width="25%" valign="top">
-        <strong>Authentication</strong><br>
-        • JWT Access Tokens (HS256)<br>
-        • Bcrypt Password Salting<br>
-        • Google OAuth 2.0 SSO<br>
-        • Secure Cookie Session variables
-      </td>
-      <td width="25%" valign="top">
-        <strong>MCP Integration</strong><br>
-        • FastMCP Server framework<br>
-        • JSON-RPC 2.0 Stdio Client<br>
-        • Process Subprocess spawn
-      </td>
-      <td width="25%" valign="top">
-        <strong>Security Layer</strong><br>
-        • Token Bucket Rate Limiter<br>
-        • Prompt Injection regex scan<br>
-        • CSRF Origin Validation<br>
-        • Secure Image MIME scanner
-      </td>
-      <td width="25%" valign="top">
-        <strong>Deployment</strong><br>
-        • Docker Containerization<br>
-        • Google Cloud Run<br>
-        • Google Artifact Registry<br>
-        • Google Secret Manager
-      </td>
-    </tr>
-  </table>
-</div>
+| Category | Technology |
+| :--- | :--- |
+| **Frontend** | React 19 SPA, Vite Dev Server, Tailwind CSS v4, Lucide React Icons, Framer Motion UI Animations, i18next Framework |
+| **Backend** | Python 3.11+ Runtime, Flask Web Server (WSGI), Gunicorn Multi-thread, Eventlet Engine, Model Context Protocol client |
+| **Database** | SQLite WAL Database, SQLAlchemy ORM, ChromaDB Vector Store, Semantic Search Indices |
+| **Authentication** | JWT Access Tokens (HS256), Bcrypt Password Salting, Google OAuth 2.0 SSO, Secure Cookie Session variables |
+| **Deployment** | Docker Containerization, Google Cloud Run, Google Artifact Registry, Google Secret Manager |
+| **AI Models** | Google Gemini 2.5 Flash, NVIDIA Nemotron 3 Nano, Google ADK SDK, Multimodal Vision AI, Intent router engines |
+| **Weather API** | Open-Meteo REST API (Precipitation probability, Soil moisture, Wind velocity, Relative humidity) |
+| **Maps API** | Nominatim OpenStreetMap (Reverse Geocoding coordinates to municipality, county, and district data) |
 
 ---
 
@@ -638,74 +613,84 @@ AgriCore AI/
 
 ---
 
-## 📥 Installation
+## 📥 Installation & Local Setup
 
-Follow these steps to set up AgriCore AI on your local workstation:
+Follow these instructions to configure and run the AgriCore AI platform locally.
 
 ### Prerequisites
 
-* Python: Version 3.11 or higher
-* NodeJS: Version 18 or higher (LTS recommended) along with `npm`
-* Docker: Recommended for unified multi-container setups
+* **Python**: Version 3.11 or higher
+* **Node.js**: Version 18 or higher (LTS recommended) along with `npm`
+* **Docker**: Recommended for unified multi-container local orchestration
 
 ### Step 1: Clone the Repository
 
 ```bash
-git clone https://github.com/username/agricore-ai.git
-cd agricore-ai
+git clone https://github.com/dibyangshunayak/AgriCoreAI.git
+cd AgriCoreAI
 ```
 
 ### Step 2: Configure Environment Variables
+
+Create a `.env` file in the `backend/` directory by copying the template:
+
+```bash
+cd backend
+cp .env.example .env
+```
+
+Populate the newly created `.env` file using the configuration details below.
+
+---
+
+## 🔑 Environment Configuration
+
+The following environment variables configure connection tokens, authentication secrets, and host ports:
+
+| Variable | Description | Required | Example |
+| :--- | :--- | :---: | :--- |
+| `GEMINI_API_KEY` | Developer API key for Google Gemini models. | **Yes** | `AIzaSyD...` |
+| `NVIDIA_API_KEY` | API key for NVIDIA NIM catalog (Nemotron models). | **Yes** | `nvapi-prod...` |
+| `DATABASE_URL` | SQLAlchemy connection URI for SQLite state storage. | **Yes** | `sqlite:///../data/agricore.db` |
+| `JWT_SECRET` | Secret key used for signing authentication access tokens. | **Yes** | `super-secret-jwt-key` |
+| `SECRET_KEY` | Flask application secret key for session signatures. | **Yes** | `flask-crypto-secret` |
+| `ALLOWED_ORIGINS` | Permitted cross-origin hosts (comma-separated list). | No | `http://localhost,https://agricore.ai` |
+| `HOST` | The network IP host boundaries for the Flask service. | No | `0.0.0.0` |
+| `PORT` | The network interface port the backend binds to. | No | `8000` |
+
+---
+
+## 🐳 Docker Deployment (Recommended)
+
+Start the React frontend, Flask backend, and SQLite database containers simultaneously:
+
+```bash
+# Build and launch all containerized microservices
+docker compose up --build
+
+# Follow service output logs in real-time
+docker compose logs
+
+# Stop and tear down container instances
+docker compose down
+```
+
+* **Frontend Client Dashboard**: Access via http://localhost (Port 80)
+* **Backend Server APIs**: Access via http://localhost:8000 (Port 8000)
+
+---
+
+## 🐍 Manual Local Development Setup
+
+If you prefer to run services individually without containers:
+
+### Backend Setup (Flask)
 
 1. Navigate to the backend directory:
    ```bash
    cd backend
    ```
-2. Create a copy of the environment template:
-   ```bash
-   cp .env.example .env
-   ```
-3. Populate the newly created `.env` file with your credentials:
-   ```env
-   # API Keys
-   GEMINI_API_KEY=your_gemini_api_key_here
-   NVIDIA_API_KEY=your_nvidia_api_key_here
-   
-   # Database Configurations
-   DATABASE_URL=sqlite:///../data/agricore.db
-   
-   # Security and JWT
-   JWT_SECRET=use_a_secure_random_string_here
-   JWT_REFRESH_SECRET=use_another_secure_string_here
-   
-   # Google OAuth Credentials
-   GOOGLE_CLIENT_ID=your_google_client_id_here
-   GOOGLE_CLIENT_SECRET=your_google_client_secret_here
-   ```
-
-### Step 3: Run the Application with Docker (Recommended)
-
-Start the React frontend, Flask backend, and SQLite databases in a single command using Docker Compose:
-
-```bash
-# From the project root directory
-docker-compose up --build
-```
-
-* Frontend Client Dashboard: Access via http://localhost (Port 80).
-* Backend Server APIs: Running at http://localhost:8000 (Port 8000).
-
-### Step 4: Manual Local Run (Development Mode)
-
-If you prefer to run the frontend and backend services manually:
-
-#### Run the Python Backend
-
-1. Navigate to the backend folder:
-   ```bash
-   cd backend
-   ```
-2. Create and activate a virtual environment:
+2. Initialize and activate a Python virtual environment:
    ```bash
    python -m venv venv
    # Windows (PowerShell)
@@ -713,89 +698,105 @@ If you prefer to run the frontend and backend services manually:
    # macOS / Linux
    source venv/bin/activate
    ```
-3. Install backend dependencies:
+3. Install Python dependencies:
    ```bash
    pip install -r requirements.txt
    ```
-4. Start the Flask application:
+4. Boot the Flask backend service:
    ```bash
    python -m app.main
    ```
-   The backend server will run at http://127.0.0.1:8000.
+   The server will bind to http://127.0.0.1:8000.
 
-#### Run the React Frontend
+### Frontend Setup (React & Vite)
 
-1. Open a new terminal window and navigate to the frontend folder:
+1. Open a new terminal and navigate to the frontend directory:
    ```bash
    cd frontend
    ```
-2. Install npm dependencies:
+2. Install dependencies:
    ```bash
    npm install
    ```
-3. Start the Vite development hot-reloader:
+3. Start the Vite hot-reloading development server:
    ```bash
    npm run dev
    ```
-   The React application will run at http://localhost:5173.
+   The dashboard UI will load at http://localhost:5173.
 
 ---
 
-## ☁️ Google Cloud Run Deployment
+## ☁️ Deployment
 
-AgriCore AI is built for cloud scaling. Follow these steps to build and deploy the backend container on Google Cloud Run:
+AgriCore AI is built for cloud flexibility. You can deploy the containerized platform across several environments:
 
-### Step 1: Enable Google Cloud APIs
+### Supported Deployment Platforms
 
-Enable the required containerization, serverless computing, secret management, logging, and build pipelines:
+* **✅ Docker**: Deploy to any Container as a Service (CaaS) environment.
+* **✅ Render**: Simple git-connected hosting for Python backend endpoints.
+* **✅ Vercel**: High-performance CDN hosting for Vite/React applications.
+* **✅ Google Cloud Run**: Fully serverless container hosting that scales automatically.
+* **✅ Railway**: Rapid infrastructure provisioning for relational databases and server instances.
 
-```bash
-gcloud services enable run.googleapis.com \
-                       containerregistry.googleapis.com \
-                       artifactregistry.googleapis.com \
-                       secretmanager.googleapis.com \
-                       logging.googleapis.com \
-                       monitoring.googleapis.com \
-                       cloudbuild.googleapis.com
-```
+### Future Deployment Targets
+- 🔲 **Amazon Web Services (AWS)**: Fargate container tasks.
+- 🔲 **Microsoft Azure**: Container Apps environment.
 
-### Step 2: Build and Push the Production Image
+<details>
+<summary><b>Google Cloud Run Step-by-Step Deployment</b></summary>
 
-Build the backend container using Google Cloud Build and register it in your project's Artifact Registry:
+1. **Enable Google Cloud APIs**:
+   ```bash
+   gcloud services enable run.googleapis.com \
+                          containerregistry.googleapis.com \
+                          artifactregistry.googleapis.com \
+                          secretmanager.googleapis.com \
+                          logging.googleapis.com \
+                          monitoring.googleapis.com \
+                          cloudbuild.googleapis.com
+   ```
+2. **Build and Submit Container**:
+   ```bash
+   cd backend
+   gcloud builds submit --tag gcr.io/your-project-id/agricore-backend
+   ```
+3. **Deploy Container to Serverless Run**:
+   ```bash
+   gcloud run deploy agricore-backend \
+     --image gcr.io/your-project-id/agricore-backend \
+     --platform managed \
+     --region us-central1 \
+     --allow-unauthenticated \
+     --set-env-vars GEMINI_API_KEY=your_gemini_key_here,NVIDIA_API_KEY=your_nvidia_key_here,JWT_SECRET=production_access_key
+   ```
 
-```bash
-cd backend
-gcloud builds submit --tag gcr.io/your-project-id/agricore-backend
-```
-
-### Step 3: Deploy the Container to Cloud Run
-
-Deploy the backend container, allocating standard limits, mounting environment variables, and enabling public access:
-
-```bash
-gcloud run deploy agricore-backend \
-  --image gcr.io/your-project-id/agricore-backend \
-  --platform managed \
-  --region us-central1 \
-  --allow-unauthenticated \
-  --set-env-vars GEMINI_API_KEY=your_gemini_key_here,NVIDIA_API_KEY=your_nvidia_key_here,JWT_SECRET=production_access_key
-```
-
-Once deployment completes, Cloud Run will output a secure service URL (e.g., `https://agricore-backend-x8z.run.app`). Update the frontend's Axios API client configurations to point to this new URL.
+</details>
 
 ---
 
-## 🔒 Security
+## 🔌 API Overview
 
-AgriCore AI enforces security controls across the application cycle to protect user data and control model execution costs:
+AgriCore AI provides a clean REST API interface for frontend clients. Below are the key endpoints exposed by the Flask backend:
 
-* **Token-Bucket Rate Limiter:** Protects public API endpoints from Denial-of-Service (DoS) and brute force scripts. It restricts requests to 60 requests per minute per IP address.
-* **CSRF Header Origin Auditing:** Validates incoming request origins and reject calls from non-whitelisted cross-origin domains.
-* **JWT Access & Refresh Token System:** Generates secure HS256-signed JWT credentials on login, prompting silent token refreshes to secure sessions.
-* **Regex Prompt Injection Detection:** Before prompts are sent to Gemini or Nemotron models, they are checked for injection patterns (e.g., `ignore previous instructions` or `jailbreak`). If a pattern matches, the query is rejected immediately to protect agent instructions.
-* **Outbound Prompt Leakage Filters:** Checks response streams before they are returned to the user to prevent internal system prompts or key metadata from leaking.
-* **Image MIME and Size Auditing:** Rejects uploaded files larger than 5 Megabytes (MB) or those with invalid MIME headers to prevent buffer overflows or malicious file execution.
-* **Strict SQL Input Sanitization:** Escapes characters in user inputs and runs parameter validation loops to block SQL injection attempts.
+| Method | Endpoint | Description | Sample Payload / Response |
+| :--- | :--- | :--- | :--- |
+| `POST` | `/api/chat` | Main entry point for the Multi-Agent system. Ingests prompts and streams responses via SSE. | `{"message": "Hello", "session_id": "uuid"}` |
+| `POST` | `/api/upload` | Upload plant leaf images for disease classification and diagnostics. | Multipart form containing `file` |
+| `POST` | `/api/geocode` | Reverse geocode GPS coordinates to municipal locations. | `{"latitude": 18.52, "longitude": 73.85}` |
+| `GET` | `/api/weather` | Fetch meteorological metrics and soil information for a specific location. | `/api/weather?lat=18.52&lon=73.85` |
+| `POST` | `/api/translation` | Localize chat texts into target regional languages. | `{"text": "Hello", "target_lang": "hi"}` |
+| `GET` | `/api/health` | API service health check, validating databases and connection pools. | `{"status": "healthy", "database": "connected"}` |
+| `GET` | `/health` | Ingress/Load balancer health check returning static JSON. | `{"status": "up"}` |
+
+---
+
+## 📺 Live Demo & Media
+
+Experience AgriCore AI live and review our submission materials:
+
+* 🌐 **Live Demo Platform**: [agricore.ai](https://agri-core-ai-five.vercel.app)
+* 🏆 **Kaggle Writeup**: [Read Submission](https://kaggle.com/competitions/vibecoding-agents-capstone-project/writeups/new-writeup-1781964400671)
+* 📂 **GitHub Repository**: [Source Code](https://github.com/dibyangshunayak/AgriCoreAI)
 
 ---
 
@@ -816,23 +817,46 @@ The platform is designed to meet performance SLAs, ensuring a responsive user ex
 
 ---
 
-## 🗺️ Project Roadmap
+## 🔒 Security
 
-The platform's roadmap is designed to add edge computing and real-world sensor integration over time:
+AgriCore AI enforces strict security controls across the application cycle to protect user data and control model execution costs:
 
-```
- v1.0 (Current)             v1.5                       v2.0                       v2.5                       v3.0
-  [Core Engine]       [IoT Integrations]        [GIS & Drones]            [Offline Edge]            [Voice Assistant]
-      │                       │                         │                         │                         │
-      ├─ Multi-Agent core     ├─ MQTT Probe ingest      ├─ NDVI satellite maps    ├─ React Native app       ├─ Speech-to-speech
-      ├─ Gemini Pathology     ├─ Soil NPK parameters    ├─ Thermal drone scans    ├─ Local SQLite DB        ├─ Low-literacy UI
-      └─ Weather/GPS MCP      └─ Auto-irrigation loop   └─ Yield estimations      └─ Edge vision model      └─ Phone/SMS system
-```
+* **CORS Protection**: Origin validation checking hosts against whitelisted domains to prevent Cross-Origin Resource Sharing exploits.
+* **JWT (JSON Web Tokens)**: HS256-signed access/refresh token pairs generating temporary authentication contexts.
+* **Rate Limiting**: Token bucket rate limiter restricting client IP ranges to a maximum of 60 requests per minute.
+* **Prompt Injection Detection**: String regex filters parsing prompts before model processing to reject payload instructions.
+* **Secure File Upload**: Hard-coded 5MB limits and MIME type audits filtering uploaded foliage photos.
+* **Outbound Prompt Leakage Filters**: Outbound scanner scans streaming tokens to prevent instructions from leaking.
+* **SQL Input Sanitization**: Clean parameter binding on SQLite queries using SQLAlchemy core ORMs.
 
-* **IoT Sensor Stream Integration (v1.5):** Ingests real-time soil sensor data (nitrogen, phosphorus, potassium, temperature) using MQTT protocols.
-* **Satellite GIS & Yield Analysis (v2.0):** Integrates with Google Earth Engine to monitor growth and calculate vegetation indices (NDVI).
-* **Offline Mobile Companion App (v2.5):** A React Native mobile app with a local SQLite database and local edge models to run disease checks in fields without internet.
-* **Voice-Activated Advisories (v3.0):** Integrates speech-to-speech models to provide spoken farming recommendations for users with low literacy.
+---
+
+## 💼 Commercial Vision
+
+AgriCore AI is architected to scale from a technical capstone project into a full-scale commercial agriculture product:
+
+* **AI Farm Assistant**: A personal digital agronomist for individual growers, offering real-time disease diagnostic overlays and automated daily irrigation plans.
+* **SaaS Platform**: A subscription-based software-as-a-service model for commercial orchards and farms, offering detailed crop calendars and automated report exports.
+* **FPO Dashboard**: A centralized management console for Farmer Producer Organizations (FPOs), aggregating soil health, yield projections, and regional disease trends across thousands of farmers.
+* **Enterprise Agriculture Platform**: Integrated workflows for corporate supply chains, enabling contract farms to log compliance metrics, quality standards, and yield dates directly to parent distributors.
+* **Government Advisory System**: Regional diagnostic boards that use telemetry data to flag outbreaks (like leaf blight epidemics) early and issue localized advisory alerts.
+
+---
+
+## 🔮 Future Vision
+
+As the AgriCore AI platform matures, we plan to integrate advanced technologies to drive high-yield precision farming:
+
+* **Voice AI**: Integrating natural speech-to-speech models to enable hands-free interaction in fields, supporting low-literacy farmers through regional dialects.
+* **Mobile App**: Developing a lightweight, native React Native application optimized for both Android and iOS devices.
+* **Satellite Monitoring**: Connecting Google Earth Engine to provide automatic NDVI (Normalized Difference Vegetation Index) maps to track crop vigor and canopy growth remotely.
+* **IoT Sensors**: Support for local telemetry probes (ground soil NPK sensors, local temperature indicators) pushing telemetry via MQTT channels.
+* **Drone Analytics**: Automated processing of multispectral drone camera maps to locate localized irrigation leaks or pest infestations.
+* **Market Forecasting**: Predictive analytics utilizing ML models to track regional crop market prices and recommend optimal harvest sale windows.
+* **Yield Prediction**: AI regression models that estimate total yield volume based on historical weather, crop health, and soil composition.
+* **Offline AI**: Compiling lightweight edge-run classification models (like ONNX models) to operate offline without cellular signal.
+* **Digital Twin Farms**: Interactive mapping grids simulating virtual crop growth rates, water depletion layers, and microclimate influences.
+* **Smart Notifications**: Multi-channel alerts (SMS, WhatsApp, Web Push) notifying farmers of sudden frost hazards or pathogen outbreaks.
 
 ---
 
@@ -840,31 +864,21 @@ The platform's roadmap is designed to add edge computing and real-world sensor i
 
 AgriCore AI is built in direct alignment with the principles taught in the Google AI Agents course, implementing these concepts across its codebase:
 
-* **Multi-Agent System:** Leverages a coordinator model to delegate tasks to specialized sub-agents (Vision, Crop, Weather, translation) rather than running a single monolithic model.
-* **Coordinator Agent:** Manages the task execution cycle, calls registered tools, handles intermediate state verification, and compiles the final advisory response.
-* **Planner Agent:** Dynamically creates task execution DAGs when handling user requests, mapping out parallel tasks and identifying tool dependencies.
-* **Model Context Protocol (MCP):** Connects external database and weather APIs to the platform using MCP servers over standard input/output (stdio) transports.
-* **Agent Skills:** Exposes Python functions as agent tools using decorator-driven registries (`@tool`) with explicit validation schemas.
-* **Security Guardrails:** Implements prompt injection scanners on inputs and leakage filters on outbound streams to protect model instructions.
-* **Streaming Engine:** Streams agent thoughts and token outputs in real-time using Server-Sent Events (SSE).
-* **Deployability:** Fully containerized with Docker builds and optimized for serverless deployment on Google Cloud Run.
+* **Multi-Agent System**: Leverages a coordinator model to delegate tasks to specialized sub-agents (Vision, Crop, Weather, translation) rather than running a single monolithic model.
+* **Coordinator Agent**: Manages the task execution cycle, calls registered tools, handles intermediate state verification, and compiles the final advisory response.
+* **Planner Agent**: Dynamically creates task execution DAGs when handling user requests, mapping out parallel tasks and identifying tool dependencies.
+* **Model Context Protocol (MCP)**: Connects external database and weather APIs to the platform using MCP servers over standard input/output (stdio) transports.
+* **Agent Skills**: Exposes Python functions as agent tools using decorator-driven registries (`@tool`) with explicit validation schemas.
+* **Security Guardrails**: Implements prompt injection scanners on inputs and leakage filters on outbound streams to protect model instructions.
+* **Streaming Engine**: Streams agent thoughts and token outputs in real-time using Server-Sent Events (SSE).
+* **Deployability**: Fully containerized with Docker builds and optimized for serverless deployment on Google Cloud Run.
 
 ---
 
 ## 🏆 Built For
 
-* **Event:** Google × Kaggle AI Agents Intensive Vibe Coding Capstone
-* **Track:** Agents for Good
-
----
-
-## 🔮 Future Vision
-
-AgriCore AI is designed to scale from a capstone project into a commercial enterprise platform:
-
-1. **B2B SaaS for Cooperatives:** AgriCore AI can act as a centralized dashboard for agricultural cooperatives, helping them monitor regional crops, forecast soil changes, and track disease trends.
-2. **Consulting Platform for Agronomists:** Agronomists can use the system's telemetry and visual diagnostics to analyze plant health, write prescription files, and track farm operations remotely.
-3. **Decentralized MCP Registries:** Local governments and agricultural boards can host custom local MCP servers (e.g., local crop rules, local subsidy lists) to extend the platform's capabilities without modifying the core agent codebase.
+* **Event**: Google × Kaggle AI Agents Intensive Vibe Coding Capstone
+* **Track**: Agents for Good
 
 ---
 
@@ -888,8 +902,8 @@ We welcome open-source contributions. Please follow this git workflow:
 
 ### Coding Standards
 
-* **Python:** Format files utilizing `black` and adhere to PEP 8 specifications. Ensure all test scripts pass before submitting.
-* **React:** Format using `prettier`. Correct any lint errors before building.
+* **Python**: Format files utilizing `black` and adhere to PEP 8 specifications. Ensure all test scripts pass before submitting.
+* **React**: Format using `prettier`. Correct any lint errors before building.
 
 ---
 
@@ -913,7 +927,7 @@ This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENS
 ## 📊 Final Review Scorecard
 
 > [!NOTE]
-> Below is the self-evaluation score card assessed against standard evaluation criteria for the Google AI Agents Capstone.
+> Below is the self-evaluation scorecard assessed against standard evaluation criteria for the Google AI Agents Capstone.
 
 | Category | Score | Evaluation Notes / Architectural Validation |
 | :--- | :---: | :--- |
